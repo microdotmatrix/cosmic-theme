@@ -1,3 +1,7 @@
+:root {
+  --color-slider-controls: var(--color-rgb-dip-smoke);
+}
+
 slider-component {
   --desktop-margin-left-first-item: max(
     5rem,
@@ -33,6 +37,7 @@ slider-component.slider-component-full-width {
   --focus-outline-padding: 0.5rem;
   --shadow-padding-top: calc((var(--shadow-vertical-offset) * -1 + var(--shadow-blur-radius)) * var(--shadow-visible));
   --shadow-padding-bottom: calc((var(--shadow-vertical-offset) + var(--shadow-blur-radius)) * var(--shadow-visible));
+  
   scroll-snap-align: start;
   flex-shrink: 0;
   padding-bottom: 0;
@@ -286,13 +291,13 @@ slider-component.slider-component-full-width {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  border: 0.1rem solid rgba(var(--color-foreground), 0.5);
+  border: 0.1rem solid rgba(var(--color-slider-controls), 0.5);
   padding: 0;
   display: block;
 }
 
 .slider-counter__link--active.slider-counter__link--dots .dot {
-  background-color: rgb(var(--color-foreground));
+  background-color: rgb(var(--color-slider-controls));
 }
 
 @media screen and (forced-colors: active) {
@@ -302,7 +307,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-counter__link--dots:not(.slider-counter__link--active):hover .dot {
-  border-color: rgb(var(--color-foreground));
+  border-color: rgb(var(--color-slider-controls));
 }
 
 .slider-counter__link--dots .dot,
@@ -355,7 +360,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button {
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-slider-controls), 0.75);
   background: transparent;
   border: none;
   cursor: pointer;

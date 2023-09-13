@@ -11,8 +11,13 @@
 }
 
 .list-social__item .icon {
-  height: 2.2rem;
-  width: 2.2rem;
+  --social-icon-size: max(2.2rem, 1.2vw);
+  height: var(--social-icon-size);
+  width: var(--social-icon-size);
+}
+
+.footer .list-social__item .icon {
+  --social-icon-size: max(4.2rem, 2.6vw);
 }
 
 .list-social__link {
@@ -20,6 +25,11 @@
   display: flex;
   padding: 1.1rem;
   color: rgb(var(--color-foreground));
+}
+
+.list-social__link:hover,
+.list-social__link:focus {
+  color: rgb(var(--color-rgb-dip-nectar));
 }
 
 .utility-bar .list-social__link {

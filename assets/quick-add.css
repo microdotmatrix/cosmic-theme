@@ -196,10 +196,12 @@ quick-add-modal .product__title > h1 {
 quick-add-modal .product__title > a {
   display: block;
   text-decoration: none;
+  color: rgb(var(--color-foreground));
+  transition: color 0.2s ease-in-out;
 }
 
 quick-add-modal .product__title > a:hover {
-  color: rgb(var(--color-foreground));
+  color: rgb(var(--color-rgb-dip-nectar));
   text-decoration: underline;
   text-underline-offset: 0.2rem;
   text-decoration-thickness: 0.3rem;

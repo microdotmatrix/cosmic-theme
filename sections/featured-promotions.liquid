@@ -1,0 +1,99 @@
+<div class="promo-two-column">
+  {%- for block in section.blocks -%}
+    <div class="promo-item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <figure class="promo-item__image">
+        {%- if block.settings.image != blank -%}
+          {%- liquid
+            assign sizes = "(min-width: 1600px) calc((1600px - 112px) * 1 /  2), (min-width: 990px) calc((100vw - 112px) * 1 / 2), (min-width: 750px) calc((100vw - 100px) * 1 / 1), calc((100vw - 30px) * 1 / 1)"
+          -%}
+          {{
+            block.settings.image
+            | image_url: width: 3200
+            | image_tag:
+              loading: 'lazy',
+              sizes: sizes,
+              widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200'
+          }}
+        {%- else -%}
+          {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+        {%- if block.settings.title != blank -%}
+          <figcaption class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+            <div class="promo-item__text">
+              <h1 class="title {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+                {{ block.settings.title }}
+              </h1>
+              <p class="description {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+                {{ block.settings.description }}
+              </p>
+            </div>
+            <a href="{{ block.settings.url }}" class="button {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"  style="--animation-order: 8">
+              {% if block.settings.link_text %} 
+                {{ block.settings.link_text | t }}
+              {% else %}
+                <span>Shop Now</span>
+              {% endif %}
+            </a>
+          </figcaption>
+        {%- endif -%}
+      </figure>
+    </div>
+  {%- endfor -%}
+</div>
+
+{% schema %}
+  {
+    "name": "Featured Promotions",
+    "tag": "section",
+    "class": "featured-promotions",
+    "max_blocks": 2,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Promo Item",
+        "type": "promo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "description",
+            "label": "Description"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "URL"
+          }
+        ]
+      }
+    ],
+    "default": {
+      "settings": {
+        "title": "Featured Promotions"
+      },
+      "blocks": [
+        {
+          "type": "promo"
+        },
+        {
+          "type": "promo"
+        }
+      ]
+    }
+  }
+{% endschema %}

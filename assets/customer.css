@@ -8,7 +8,7 @@
 
 @media screen and (min-width: 750px) {
   .customer:not(.account):not(.order) {
-    max-width: 47.8rem;
+    max-width: 69rem;
   }
 }
 
@@ -752,4 +752,52 @@ li[data-address] > h2 {
 .addresses form > div:nth-of-type(7),
 .addresses form > div:nth-of-type(7) + div[id] {
   margin-top: 1.5rem;
+}
+
+.account-type, .accepts-marketing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  gap: 0.5rem;
+}
+
+.account-type .account-type__header {
+  margin-bottom: 1rem;
+}
+
+.account-type .account-type__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.account-type .account-type__content--item,
+.accepts-marketing .accepts-marketing__disclaimer {
+  font-size: calc(var(--text-body-size) * 0.8);
+}
+
+.accepts-marketing .accepts-marketing__checkbox {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.accepts-marketing .accepts-marketing__disclaimer {
+  margin-top: 0.5rem;
+}
+
+.select__with-arrow {
+  position: relative;
+}
+
+.dropdown-arrow {
+  position: absolute;
+  top: 20%;
+  right: 0.5rem;
+  z-index: 100;
 }

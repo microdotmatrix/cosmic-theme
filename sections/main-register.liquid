@@ -135,6 +135,48 @@
         {{ form.errors.messages.password }}.
       </span>
     {%- endif -%}
+    <div class="account-type">
+      <h3>Account Type</h3>
+      <div class="field">
+        <select
+          name="customer[tags]"
+          id="RegisterForm-account_type"
+          aria-required="true"
+          {% if form.errors contains 'account_type' %}
+            aria-invalid="true"
+            aria-describedby="RegisterForm-account_type-error"
+          {% endif %}
+          class="select__with-arrow"
+        >
+          <option value="Individual">Individual</option>
+          <option value="Affiliate">Affiliate</option>
+        </select>
+        <span class="dropdown-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="m5.84 9.59l5.66 5.66l5.66-5.66l-.71-.7l-4.95 4.95l-4.95-4.95l-.71.7Z"/></svg>
+        </span>
+        <label for="RegisterForm-account_type" class="sr-only" style="visibility: hidden">
+          Account Type
+        </label>
+      </div>
+      <h5 class="account-type__header">Which account type is right for you?</h5>
+      <div class="account-type__content">
+        <div class="account-type__content--item">
+          <span style="font-weight: 800; color: var(--color-hex-dip-nectar)">Individual</span>
+          - Individual accounts are for personal use. Select this option if you are creating the account for yourself.
+        </div>
+        <div class="account-type__content--item">
+          <span style="font-weight: 800; color: var(--color-hex-dip-nectar)">Affiliate</span>
+          - Affiliate accounts make you a part of the Dip team! Select this option if you would like to get a custom promo code that can be shared with friends, social media followers, or local retailers. the code is worth 10% off for anyone who uses it, and the affiliate gets paid 15% of the revenue!
+        </div>
+      </div>
+    </div>
+    <div class="accepts-marketing">
+      <div class="accepts-marketing__checkbox">
+        <input type="checkbox" name="customer[accepts_marketing]" id="marketing" value="true" />
+        <label for="RegisterForm-AcceptsMarketing">Sign up for newsletter?</label>
+      </div>
+      <span class="accepts-marketing__disclaimer">Keep this checked to receive emails with special offers, updates on new and improved devices, and discount opportunities! We promise not to send you a bunch of useless spam, multiple times a day, nor do we use flashy gimmicks to formulate our sales offers. Just periodic updates to keep our customers in the loop when we get new inventory in stock, plan special holiday sales, or offer exclusive discount codes for returning customers! And we do not sell your data to third parties. See our <a href="{{ shop.url }}/pages/privacy-policy">Privacy Policy</a> for more info.</span>
+    </div>
     <button>
       {{ 'customer.register.submit' | t }}
     </button>

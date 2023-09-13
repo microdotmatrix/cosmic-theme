@@ -21,6 +21,13 @@
 
 .newsletter-form__field-wrapper .field__input {
   padding-right: 5rem;
+  background-color: rgba(var(--color-rgb-dip-smoke), 0.8);
+  font-family: var(--font-monospace-family);
+  font-size: 1.8rem;
+}
+
+.newsletter-form__field-wrapper .field__input:focus {
+  background-color: rgba(var(--color-rgb-dip-smoke), 1);
 }
 
 .newsletter-form__field-wrapper .field {

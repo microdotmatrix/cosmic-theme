@@ -167,6 +167,13 @@
   text-align: center;
 }
 
+.image-with-text__content--mobile-center .metafield-rich_text_field > ul {
+  text-align: left;
+  padding-left: 0;
+  margin-left: 0;
+  list-style-position: outside;
+}
+
 .image-with-text--overlap .image-with-text__content {
   width: 90%;
   margin: -3rem auto 0;

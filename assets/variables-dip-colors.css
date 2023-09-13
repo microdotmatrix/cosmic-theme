@@ -1,0 +1,53 @@
+:root {
+  --color-hex-dip-black: #111104;
+  --color-hex-dip-dark: #232222;
+  --color-hex-dip-asphalt: #55565A;
+  --color-hex-dip-midgray: #414143;
+  --color-hex-dip-gray: #606166;
+  --color-hex-dip-slate: #b4b4c3;
+  --color-hex-dip-nectar: #f7b334;
+  --color-hex-dip-khaki: #e2d0a6;
+  --color-hex-dip-light: #d0d5e0;
+  --color-hex-dip-smoke: #eef2f5;
+  --color-hex-dip-white: #fafeff;
+  --color-hex-dip-error: #b42d2d;
+  --color-hex-dip-notice: #609ef1;
+  --color-hex-dip-success: #2d9d2d;
+  --color-hex-dip-warning: #F8941C;
+}
+
+:root {
+  --color-rgb-dip-black: 17, 17, 4;
+  --color-rgb-dip-dark: 35, 34, 34;
+  --color-rgb-dip-asphalt: 85, 86, 90;
+  --color-rgb-dip-midgray: 65, 65, 67;
+  --color-rgb-dip-gray: 96, 97, 102;
+  --color-rgb-dip-slate: 180, 180, 195;
+  --color-rgb-dip-nectar: 247, 179, 52;
+  --color-rgb-dip-khaki: 226, 208, 166;
+  --color-rgb-dip-light: 208, 213, 224;
+  --color-rgb-dip-smoke: 238, 242, 245;
+  --color-rgb-dip-white: 250, 254, 255;
+  --color-rgb-dip-error: 180, 45, 45;
+  --color-rgb-dip-notice: 96, 158, 241;
+  --color-rgb-dip-success: 45, 157, 45;
+  --color-rgb-dip-warning: 248, 148, 28;
+}
+
+:root {
+  --color-hsl-dip-black: hsl(0, 0%, 4%);
+  --color-hsl-dip-dark: hsl(0, 0%, 13%);
+  --color-hsl-dip-asphalt: hsl(240, 4%, 34%);
+  --color-hsl-dip-midgray: hsl(240, 2%, 26%);
+  --color-hsl-dip-gray: hsl(240, 4%, 39%);
+  --color-hsl-dip-slate: hsl(240, 14%, 73%);
+  --color-hsl-dip-nectar: hsl(40, 92%, 57%);
+  --color-hsl-dip-khaki: hsl(42, 47%, 73%);
+  --color-hsl-dip-light: hsl(220, 20%, 82%);
+  --color-hsl-dip-smoke: hsl(210, 20%, 92%);
+  --color-hsl-dip-white: hsl(210, 100%, 99%);
+  --color-hsl-dip-error: hsl(0, 60%, 39%);
+  --color-hsl-dip-notice: hsl(214, 76%, 61%);
+  --color-hsl-dip-success: hsl(120, 57%, 39%);
+  --color-hsl-dip-warning: hsl(34, 89%, 56%);
+}

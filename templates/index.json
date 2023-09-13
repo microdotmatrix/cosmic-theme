@@ -1,49 +1,145 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "6a30cf48-39f3-48a6-ac07-fc45b313d8e3": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "template--20168172470561__6a30cf48-39f3-48a6-ac07-fc45b313d8e3-slide-1": {
+          "type": "slide",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "image": "shopify:\/\/shop_images\/1_2000x_947e2688-9e1e-47df-ab84-0daad6748d10.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/products\/evri-for-510-flower-and-concentrates",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "text": {
-          "type": "text",
+        "template--20168172470561__6a30cf48-39f3-48a6-ac07-fc45b313d8e3-slide-2": {
+          "type": "slide",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "image": "shopify:\/\/shop_images\/4_1400x_84efeb76-83bb-4085-ac0f-ef7027f6ff5a.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/products\/lunar",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         },
-        "button": {
-          "type": "buttons",
+        "7486236e-a0f4-4591-a027-5ff7ecdcbed7": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/DIP-homepage-hero-LD_2000x_6726f9f6-5030-40dc-9724-e199403e75f5.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/products\/little-dipper-2-pack",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "b40e78ea-f405-49d1-bd7b-1b7a7b963cbd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DIP-homepage-hero-EVRI_2000x_80579050-69d6-4994-99c4-c0e4e7147c5b.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/products\/evri-for-510-flower-and-concentrates",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "a57c10a2-3f49-42b1-a49e-bcb42880d59c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DIP-homepage-hero-dipper_2000x_5bb0d9c0-183c-449a-9284-bb05e07ee712.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/products\/dipper-vaporizer",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "template--20168172470561__6a30cf48-39f3-48a6-ac07-fc45b313d8e3-slide-1",
+        "template--20168172470561__6a30cf48-39f3-48a6-ac07-fc45b313d8e3-slide-2",
+        "7486236e-a0f4-4591-a027-5ff7ecdcbed7",
+        "b40e78ea-f405-49d1-bd7b-1b7a7b963cbd",
+        "a57c10a2-3f49-42b1-a49e-bcb42880d59c"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 9,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Check out our latest products and promotional offers"
+      }
+    },
+    "081e7a41-234b-4656-b69a-1050752785ad": {
+      "type": "featured-promotions",
+      "blocks": {
+        "66d78807-0ed2-4394-9ad2-93dd80e8d099": {
+          "type": "promo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/medium_1_8b78ed5a-40a5-4920-863c-30dc4f61a132.jpg",
+            "title": "Evri",
+            "description": "Compact and multifunctional. Vape discretely and dab without a torch.",
+            "url": "shopify:\/\/products\/evri-for-510-flower-and-concentrates"
+          }
+        },
+        "bc123aa2-1b27-4de5-913f-846750592000": {
+          "type": "promo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dipper-web-hero-4color_1000x_076d09a1-02af-461f-95ec-e4520d76ad39.webp",
+            "title": "Dipper",
+            "description": "Robust, high powered dab pen and honey straw.",
+            "url": "shopify:\/\/products\/dipper-vaporizer"
+          }
+        }
+      },
+      "block_order": [
+        "66d78807-0ed2-4394-9ad2-93dd80e8d099",
+        "bc123aa2-1b27-4de5-913f-846750592000"
+      ],
+      "settings": {
+        "title": "Featured Promotions"
       }
     },
     "rich_text": {
@@ -52,14 +148,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "WHAT MAKES OUR DAB PENS INNOVATIVE?",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Our vapes are multifunctional, portable, and torchless. <\/p><p><a href=\"https:\/\/dipdevices.com\/products\/dipper-vaporizer\">The Dipper<\/a> is a 2-in-1 electric dab pen and honey straw. It includes a <a href=\"https:\/\/dipdevices.com\/products\/vapor-tip-atomizer-5-pack\">Vapor Tip<\/a> dab straw for portable dabbing, and a <a href=\"https:\/\/dipdevices.com\/products\/quartz-crystal-atomizer-3-pack\">Quartz Atomizer<\/a> to turn the device into a powerful dab pen for wax and other concentrates.<\/p><p><a href=\"https:\/\/dipdevices.com\/products\/evri-starter-pack\">The EVRI<\/a>, our newest product, has multiple vape and dab attachments: A <a href=\"https:\/\/dipdevices.com\/products\/evri-vapor-tip-attachment\">Vapor Tip<\/a> electric dab straw and a <a href=\"https:\/\/dipdevices.com\/products\/evri-510-pod-attachment\">510\/Pod Attachment<\/a> for cartridges and vape pods as well as a <a href=\"https:\/\/dipdevices.com\/products\/evri-quartz-crystal-attachment\">Quartz Crystal<\/a> bucket-style attachment for a traditional pack-and-go dab pen experience.<\/p><p><a href=\"https:\/\/dipdevices.com\/collections\/little-dipper\"><span style=\"text-decoration:underline\">The Little Dipper<\/span><\/a> is a low cost, discreet electric dab straw meant for maximum portability. Voted the Best New Product of the year in 2021 by <a href=\"https:\/\/www.thehqevent.com\/\" target=\"_blank\"><span style=\"text-decoration:underline\">HQ Event<\/span><\/a>.<\/p><p><a href=\"https:\/\/dipdevices.com\/collections\/vaporizers\">All of our dab pens and vaporizers<\/a> are discreet and let you dab without a torch.<\/p>"
           }
         }
       },
@@ -68,143 +164,258 @@
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_top": 64,
+        "padding_bottom": 48
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "01e874cf-f1cc-46b8-8844-6012df9516e3": {
+      "type": "multicolumn-custom",
+      "blocks": {
+        "template--20168172470561__01e874cf-f1cc-46b8-8844-6012df9516e3-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BeFunky-design_2_Cropped_1_600x_c538e18d-57b4-4e5d-8d15-de44091e37f4.webp",
+            "title": "Innovative",
+            "title_size": "h2",
+            "text": "<p>EVRI is a revolutionary, continuously evolving consumption solution. The device features interchangeable, magnetic attachments for a versatile experience. Currently available attachments are our classic Vapor Tip electric dab straw, a Quartz Crystal Attachment for a traditional \"dab pen\" hit, and a 2-in-1 attachment for 510 Cartridges and Refillable Pods.<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/products\/evri-for-510-flower-and-concentrates",
+            "content_center": true
+          }
+        },
+        "template--20168172470561__01e874cf-f1cc-46b8-8844-6012df9516e3-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BeFunky-design_3_Cropped_600x_71818ea8-379e-454b-920f-6d63d25e7294.webp",
+            "title": "Durable",
+            "title_size": "h3",
+            "text": "<p>The Dipper is a 2-in-1 dab pen and electric honey straw built for extreme durability and reliability. The tips are replaceable so there are no worries about a messy device. It features three high powered heat settings that let you dab without a torch, and includes a comprehensive one year warranty.<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/products\/dipper-vaporizer",
+            "content_center": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20168172470561__01e874cf-f1cc-46b8-8844-6012df9516e3-column-1",
+        "template--20168172470561__01e874cf-f1cc-46b8-8844-6012df9516e3-column-2"
+      ],
+      "disabled": true,
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "info_overlay": true
+      }
+    },
+    "0513f1e4-e826-4966-b230-cf246d47ae95": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20168172470561__0513f1e4-e826-4966-b230-cf246d47ae95-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BeFunky-design_2_Cropped_1_600x_c538e18d-57b4-4e5d-8d15-de44091e37f4.webp",
+            "title": "Innovative",
+            "text": "<p>EVRI is a revolutionary, continuously evolving consumption solution. The device features interchangeable, magnetic attachments for a versatile experience. Currently available attachments are our classic Vapor Tip electric dab straw, a Quartz Crystal Attachment for a traditional \"dab pen\" hit, and a 2-in-1 attachment for 510 Cartridges and Refillable Pods.<\/p>",
+            "link_label": "Explore device configurations",
+            "link": "shopify:\/\/products\/evri-for-510-flower-and-concentrates"
+          }
+        },
+        "template--20168172470561__0513f1e4-e826-4966-b230-cf246d47ae95-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BeFunky-design_3_Cropped_600x_71818ea8-379e-454b-920f-6d63d25e7294.webp",
+            "title": "Durable",
+            "text": "<p>The Dipper is a 2-in-1 dab pen and electric honey straw built for extreme durability and reliability. The tips are replaceable so there are no worries about a messy device. It features three high powered heat settings that let you dab without a torch, and includes a comprehensive one year warranty.<\/p>",
+            "link_label": "Put it to the test",
+            "link": "shopify:\/\/products\/dipper-starter-pack-1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20168172470561__0513f1e4-e826-4966-b230-cf246d47ae95-column-1",
+        "template--20168172470561__0513f1e4-e826-4966-b230-cf246d47ae95-column-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "collage": {
       "type": "collage",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "9336e6f2-b6e5-4240-91b2-1615e0bb4c66": {
+          "type": "product",
           "settings": {
-            "collection": ""
+            "product": "little-dipper-dab-straw-vaporizer",
+            "second_image": false
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "lunar",
             "second_image": false
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "0e031471-4d75-4558-923c-3ef95b655ab5": {
+          "type": "product",
           "settings": {
-            "collection": ""
+            "product": "little-dipper-replacement-vapor-tip-pack-of-2",
+            "second_image": false
           }
         }
       },
       "block_order": [
-        "collection-0",
+        "9336e6f2-b6e5-4240-91b2-1615e0bb4c66",
         "product",
-        "collection-1"
+        "0e031471-4d75-4558-923c-3ef95b655ab5"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
+        "heading": "OUR BEST SELLING VAPORIZERS AND ACCESSORIES",
+        "heading_size": "h1",
         "desktop_layout": "left",
-        "mobile_layout": "collage",
+        "mobile_layout": "column",
+        "card_styles": "none",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 48
+      }
+    },
+    "c92af8cc-0272-4b2a-a3a3-673642616f75": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20168172470561__c92af8cc-0272-4b2a-a3a3-673642616f75-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR MISSION",
+            "heading_size": "h2"
+          }
+        },
+        "template--20168172470561__c92af8cc-0272-4b2a-a3a3-673642616f75-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dip Devices strives to be the leader in bringing premium, innovative vaporizers and accessories to the dynamic herbal medicine marketplace. We value quality, originality, social consciousness, and caring customer service.<\/p>"
+          }
+        },
+        "template--20168172470561__c92af8cc-0272-4b2a-a3a3-673642616f75-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "About Us",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": false,
+            "button_label_2": "Social Impact",
+            "button_link_2": "shopify:\/\/pages\/social-impact",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20168172470561__c92af8cc-0272-4b2a-a3a3-673642616f75-heading-1",
+        "template--20168172470561__c92af8cc-0272-4b2a-a3a3-673642616f75-text-1",
+        "template--20168172470561__c92af8cc-0272-4b2a-a3a3-673642616f75-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "video": {
       "type": "video",
       "settings": {
         "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=IIUfDVU5Zos",
+        "cover_image": "shopify:\/\/shop_images\/DIP-web-video-bg-homepage_1500x_f1fd17d4-a49a-43f6-87e2-ac74b7b06fe8.webp",
         "description": "",
-        "full_width": false,
+        "full_width": true,
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
+    "d21d5b93-2765-4f1f-a66b-62bed08c6cf7": {
+      "type": "newsletter",
       "blocks": {
-        "column1": {
-          "type": "column",
+        "template--20168172470561__d21d5b93-2765-4f1f-a66b-62bed08c6cf7-heading-1": {
+          "type": "heading",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
           }
         },
-        "column2": {
-          "type": "column",
+        "template--20168172470561__d21d5b93-2765-4f1f-a66b-62bed08c6cf7-paragraph-1": {
+          "type": "paragraph",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
           }
         },
-        "column3": {
-          "type": "column",
+        "template--20168172470561__d21d5b93-2765-4f1f-a66b-62bed08c6cf7-email_form-1": {
+          "type": "email_form",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "template--20168172470561__d21d5b93-2765-4f1f-a66b-62bed08c6cf7-heading-1",
+        "template--20168172470561__d21d5b93-2765-4f1f-a66b-62bed08c6cf7-paragraph-1",
+        "template--20168172470561__d21d5b93-2765-4f1f-a66b-62bed08c6cf7-email_form-1"
+      ],
+      "custom_css": [
+        ".newsletter {margin-top: -1px;}"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
-    "image_banner",
+    "6a30cf48-39f3-48a6-ac07-fc45b313d8e3",
+    "081e7a41-234b-4656-b69a-1050752785ad",
     "rich_text",
-    "featured_collection",
+    "01e874cf-f1cc-46b8-8844-6012df9516e3",
+    "0513f1e4-e826-4966-b230-cf246d47ae95",
     "collage",
+    "c92af8cc-0272-4b2a-a3a3-673642616f75",
     "video",
-    "multicolumn"
+    "d21d5b93-2765-4f1f-a66b-62bed08c6cf7"
   ]
 }

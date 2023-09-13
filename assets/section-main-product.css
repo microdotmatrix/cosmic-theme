@@ -366,6 +366,9 @@ a.product__text {
 
 .product .price .badge {
   margin-bottom: 0.5rem;
+  font-family: var(--font-heading-alt-family);
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .product .price__container {

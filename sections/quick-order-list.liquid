@@ -128,10 +128,7 @@
         {% comment %} Populated by JS {% endcomment %}
       </span>
     {%- else -%}
-      <div
-        class="quick-order-list__total gradient"
-        id="quick-order-list-total"
-      >
+      <div class="quick-order-list__total gradient" id="quick-order-list-total">
         <div class="quick-order-list-total__info">
           <div class="quick-order-list-total__column small-hide medium-hide">
             <div class="quick-order-list-buttons">
@@ -163,9 +160,9 @@
             </span>
           </div>
           <div class="quick-order-list__total-items">
-            <span>
+            <h3>
               {{ items_in_cart }}
-            </span>
+            </h3>
             <p class="h5">{{ 'sections.quick_order_list.total_items' | t }}</p>
           </div>
           <div class="quick-order-list-total__price">
@@ -175,12 +172,12 @@
               </button>
             </noscript>
             <div class="totals__product-total">
-              <span class="totals__subtotal-value">
+              <h3 class="totals__subtotal-value">
                 {% comment %} TODO: enable theme-check once `line_items_for` is accepted as valid filter {% endcomment %}
                 {% # theme-check-disable %}
                 {{ cart | line_items_for: product | sum: 'original_line_price' | money }}
                 {% # theme-check-enable %}
-              </span>
+              </h3>
               <p class="totals__subtotal h5">{{ 'sections.quick_order_list.product_total' | t }}</p>
             </div>
             <small class="tax-note caption-large rte">

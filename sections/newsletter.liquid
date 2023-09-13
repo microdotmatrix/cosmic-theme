@@ -13,9 +13,14 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  /* Correction for a tiny section gap between this and video frame component above it on home page */
+  .newsletter {
+    margin-top: -1px;
+  }
 {%- endstyle -%}
 
-<div class="newsletter center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
+<div class="newsletter center{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif %}">
   <div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
     {%- for block in section.blocks -%}
       {%- case block.type -%}

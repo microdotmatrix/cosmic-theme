@@ -109,6 +109,109 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .header-snackbar {
+    width: 100%;
+    padding: 2px 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--color-hex-dip-asphalt);
+  }
+
+  .header-snackbar .phone-number,
+  .header-snackbar .contact-us,
+  .header-snackbar .login {
+    color: var(--color-hex-dip-white);
+    font-family: var(--font-heading-alt);
+    font-size: calc(var(--text-body-size) * 1.05);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    .header-snackbar .phone-number,
+    .header-snackbar .contact-us,
+    .header-snackbar .login {
+      display: inline-flex;
+      margin-left: 1.5rem;
+    }
+  }
+
+  .header-snackbar a[href] {
+    color: rgb(var(--color-rgb-dip-smoke));
+    text-decoration: none;
+  }
+
+  .header-snackbar .social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0rem;
+  }
+
+  .header-snackbar .social-media a[href] {
+    color: rgb(var(--color-rgb-dip-nectar));
+  }
+
+  .header-snackbar .contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2rem;
+  }
+
+  .header-snackbar .user-access {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .header-snackbar .user-access .login {
+    display: none;
+  }
+
+  .header-snackbar .user-access .login-link {
+    font-family: var(--font-heading-alt);
+    font-size: calc(var(--text-body-size) * 1.05);
+    text-transform: uppercase;
+    line-height: 2;
+  }
+
+  @media screen and (min-width: 768px) {
+    .header-snackbar {
+      flex-direction: row;
+      gap: 0.5rem;
+    }
+
+    .header-snackbar .user-access {
+      gap: 1.5rem;
+    }
+
+    .header-snackbar .contact-info {
+      flex-direction: row;
+      gap: 0.25rem;
+    }
+
+    .header-snackbar .user-access .login {
+      display: inline-flex;
+    }
+
+    .header-snackbar .user-access .icon-account {
+      font-size: 1.2rem;
+      display: inline-flex;
+    }
+  }
+
+
+  .header-snackbar .user-access .login:hover {
+    color: var(--color-hex-dip-orange);
+  }  
 {%- endstyle -%}
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
@@ -156,7 +259,53 @@
       assign localization_forms = true
     endif
   -%}
-  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
+
+  <div class="header-snackbar">
+    <section class="contact-info">
+      
+      <div class="social-media">
+        {% render 'social-icons' %}
+      </div>
+  
+      <span class="phone-number">844-922-VAPE (8273)</span>
+  
+      <span class="contact-us">
+        <a href="{{ shop.url }}/pages/contact-us">Contact Us</a>
+      </span>
+    </section>
+  
+    <section class="user-access">
+      {%- if shop.customer_accounts_enabled -%}
+        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="link {% if section.settings.menu != blank %} small-hide{% endif %}">
+          {%- if customer -%}
+            <span class="login-link">Hello, {{ customer.first_name }}</span>
+          {%- else -%}
+            <span class="login-link">Login</span>
+          {%- endif -%}
+        </a>
+
+        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
+          {% render 'icon-account' %}
+          
+          <span class="visually-hidden">
+            {%- liquid
+              if customer
+                echo 'customer.account_fallback' | t
+              else
+                echo 'customer.log_in' | t
+              endif
+            -%}
+          </span>
+        </a>
+      {%- endif -%}
+      
+      <span class="shopping-cart">
+        {% render 'cart-icon' %}
+      </span>
+    </section>
+  </div>
+
+  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} {% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
     {%- liquid
       if section.settings.menu != blank
         render 'header-drawer'
@@ -166,6 +315,7 @@
         render 'header-search', input_id: 'Search-In-Modal-1'
       endif
     -%}
+
 
     {%- if section.settings.logo_position != 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
@@ -228,6 +378,7 @@
                   preload: true
                 }}
               </div>
+              {%- section 'hello' -%}
             {%- else -%}
               <span class="h2">{{ shop.name }}</span>
             {%- endif -%}
@@ -297,20 +448,7 @@
       </div>
       {% render 'header-search', input_id: 'Search-In-Modal' %}
 
-      {%- if shop.customer_accounts_enabled -%}
-        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
-          {% render 'icon-account' %}
-          <span class="visually-hidden">
-            {%- liquid
-              if customer
-                echo 'customer.account_fallback' | t
-              else
-                echo 'customer.log_in' | t
-              endif
-            -%}
-          </span>
-        </a>
-      {%- endif -%}
+      {% comment %} placeholder: removed customer login icon, rendering in snackbar {% endcomment %}
 
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -319,24 +457,7 @@
         {%- endcase -%}
       {%- endfor -%}
 
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
-        {%- liquid
-          if cart == empty
-            render 'icon-cart-empty'
-          else
-            render 'icon-cart'
-          endif
-        -%}
-        <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
-        {%- if cart != empty -%}
-          <div class="cart-count-bubble">
-            {%- if cart.item_count < 100 -%}
-              <span aria-hidden="true">{{ cart.item_count }}</span>
-            {%- endif -%}
-            <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
-          </div>
-        {%- endif -%}
-      </a>
+      {% comment %} placeholder: removed cart icon, rendering in snackbar {% endcomment %}
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>

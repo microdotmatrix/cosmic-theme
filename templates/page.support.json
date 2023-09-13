@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "c8a06c9d-f472-4026-b37e-843faa9cdf29": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20836959224097__c8a06c9d-f472-4026-b37e-843faa9cdf29-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dipper-web-hero-4color_1000x_076d09a1-02af-461f-95ec-e4520d76ad39.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Dipper Support",
+            "link": "shopify:\/\/pages\/dipper-support"
+          }
+        },
+        "template--20836959224097__c8a06c9d-f472-4026-b37e-843faa9cdf29-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/medium_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "EVRI Support",
+            "link": "shopify:\/\/pages\/evri-support"
+          }
+        },
+        "template--20836959224097__c8a06c9d-f472-4026-b37e-843faa9cdf29-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LD-studio-allcolors-2_9aa8646b-fdfc-4040-8053-1136bbd0c818.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Little Dipper Support",
+            "link": "shopify:\/\/pages\/little-dipper-support"
+          }
+        },
+        "ea0cfbbc-a158-4df9-987d-a17f9a382ff6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/w1.743_9674d530-5f9e-45fc-b77b-ad5aca0caeb9.png",
+            "title": "",
+            "text": "",
+            "link_label": "Lunar Support",
+            "link": "shopify:\/\/pages\/lunar-support"
+          }
+        },
+        "6c340640-c7b6-4920-9c8c-78caef25294b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_9000.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Rover Support",
+            "link": "shopify:\/\/pages\/rover-support"
+          }
+        }
+      },
+      "block_order": [
+        "template--20836959224097__c8a06c9d-f472-4026-b37e-843faa9cdf29-column-1",
+        "template--20836959224097__c8a06c9d-f472-4026-b37e-843faa9cdf29-column-2",
+        "template--20836959224097__c8a06c9d-f472-4026-b37e-843faa9cdf29-column-3",
+        "ea0cfbbc-a158-4df9-987d-a17f9a382ff6",
+        "6c340640-c7b6-4920-9c8c-78caef25294b"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "c8a06c9d-f472-4026-b37e-843faa9cdf29",
+    "main"
+  ]
+}

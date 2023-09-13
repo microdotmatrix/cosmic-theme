@@ -1,0 +1,129 @@
+{% stylesheet %}
+  .header-snackbar {
+    width: 100%;
+    padding: 2px 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--color-hex-dip-asphalt);
+  }
+
+  .header-snackbar .phone-number,
+  .header-snackbar .contact-us,
+  .header-snackbar .login {
+    color: var(--color-hex-dip-white);
+    font-family: var(--font-heading-alt);
+    font-size: clamp(1.3rem, 1vw, 1.42rem);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    .header-snackbar .phone-number,
+    .header-snackbar .contact-us,
+    .header-snackbar .login {
+      display: inline-flex;
+      margin-left: 1.5rem;
+    }
+  }
+
+  .header-snackbar a[href] {
+    color: rgb(var(--color-rgb-dip-smoke));
+    text-decoration: none;
+  }
+
+  .header-snackbar .social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0rem;
+  }
+
+  .header-snackbar .social-media a[href] {
+    color: rgb(var(--color-rgb-dip-nectar));
+  }
+
+  .header-snackbar .contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2rem;
+  }
+
+  .header-snackbar .user-access {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .header-snackbar .user-access .login {
+      display: none;
+    }
+
+  @media screen and (min-width: 768px) {
+    .header-snackbar {
+      flex-direction: row;
+      gap: 0.5rem;
+    }
+
+    .header-snackbar .contact-info {
+      flex-direction: row;
+      gap: 0.25rem;
+    }
+
+    .header-snackbar .user-access .login {
+      display: inline-flex;
+    }
+
+    .header-snackbar .user-access .icon-account {
+      font-size: 1.2rem;
+      display: inline-flex;
+    }
+  }
+
+
+  .header-snackbar .user-access .login:hover {
+    color: var(--color-hex-dip-orange);
+  }  
+{% endstylesheet %}
+
+<div class="header-snackbar">
+  <section class="contact-info">
+    
+    <div class="social-media">
+      {% render 'social-icons' %}
+    </div>
+
+    <span class="phone-number">844-922-VAPE (8273)</span>
+
+    <span class="contact-us">
+      <a href="/contact-us">Contact Us</a>
+    </span>
+  </section>
+
+  <section class="user-access">
+    {%- if shop.customer_accounts_enabled -%}
+      <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
+        {% render 'icon-account' %}
+        <span class="visually-hidden">
+          {%- liquid
+            if customer
+              echo 'customer.account_fallback' | t
+            else
+              echo 'customer.log_in' | t
+            endif
+          -%}
+        </span>
+      </a>
+    {%- endif -%}
+    
+    <span class="shopping-cart">
+      {% render 'cart-icon' %}
+    </span>
+  </section>
+</div>

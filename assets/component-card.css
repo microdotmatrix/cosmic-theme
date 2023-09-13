@@ -188,6 +188,7 @@
 .card__heading {
   margin-top: 0;
   margin-bottom: 0;
+  letter-spacing: -0.1rem;
 }
 
 .card__heading:last-child {
@@ -227,6 +228,15 @@
   left: calc(var(--border-width) * -1);
   right: calc(var(--border-width) * -1);
   top: calc(var(--border-width) * -1);
+}
+
+.card__heading a {
+  color: var(--color-hex-dip-midgray);
+}
+
+.card__heading a:hover {
+  color: var(--color-hex-dip-nectar);
+  text-decoration: none;
 }
 
 .card__heading a::after {
@@ -361,6 +371,12 @@
 
 .card-information>.price {
   color: rgb(var(--color-foreground));
+  font-size: calc(var(--text-body-size) * 1.333);
+  letter-spacing: 0.1rem;
+  line-height: calc(1 + 0.5 / var(--font-body-scale));
+  color: rgb(var(--color-foreground));
+  font-family: var(--font-space-mono);
+  font-weight: 400;
 }
 
 .card--horizontal .card-information>.price {

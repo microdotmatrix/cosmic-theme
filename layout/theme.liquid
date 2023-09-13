@@ -81,18 +81,70 @@
         background-color: rgb(var(--color-background));
       }
 
+      @font-face {
+        font-family: 'Frontage Condensed';
+        src: url({{ 'juri-zaech_-_frontage_condensed_bold-webfont.woff2' | asset_url }}) format('woff2'),
+              url({{ 'juri-zaech_-_frontage_condensed_bold-webfont.woff' | asset_url }}) format('woff'),
+              url({{ 'juri-zaech_-_frontage_condensed_bold-webfont.ttf' | asset_url }}) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }  
+
+      @font-face {
+        font-family: 'Work Sans';
+        src: url({{ 'worksans-variablefont_wght-webfont.woff2' | asset_url }}) format('woff2'),
+            url({{ 'worksans-variablefont_wght-webfont.woff' | asset_url }}) format('woff'),
+            url({{ 'worksans-variablefont_wght-webfont.ttf' | asset_url }}) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Oswald';
+        src: url({{ 'oswald-variablefont_wght-webfont.woff2' | asset_url }}) format('woff2'),
+            url({{ 'oswald-variablefont_wght-webfont.woff' | asset_url }}) format('woff'),
+            url({{ 'oswald-variablefont_wght-webfont.ttf' | asset_url }}) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Space Mono';
+        src: url({{ 'spacemono-regular-webfont.woff2' | asset_url }}) format('woff2'),
+            url({{ 'spacemono-regular-webfont.woff' | asset_url }}) format('woff'),
+            url({{ 'spacemono-regular-webfont.ttf' | asset_url }}) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
       :root {
         --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
         --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }};
 
-        --font-heading-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
-        --font-heading-style: {{ settings.type_header_font.style }};
-        --font-heading-weight: {{ settings.type_header_font.weight }};
+        --font-frontage-condensed: 'Frontage Condensed', sans-serif;
+        --font-heading-family: var(--font-frontage-condensed);
+        --font-heading-style: normal;
+        --font-heading-weight: 300;
+
+        --font-oswald: 'Oswald', sans-serif;
+        --font-heading-alt: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+        --font-heading-alt-family: var(--font-oswald);
+        --font-heading-alt-style: {{ settings.type_header_font.style }};
+        --font-heading-alt-weight: {{ settings.type_header_font.weight }};
+
+        --font-space-mono: 'Space Mono', monospace;
+        --font-monospace-family: var(--font-space-mono);
+        --font-monospace-style: normal;
+        --font-monospace-weight: 400;
 
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
-        --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
+        --font-heading-scale: {{ settings.heading_scale | times: 1.420 | divided_by: settings.body_scale }};
 
         --media-padding: {{ settings.media_padding }}px;
         --media-border-opacity: {{ settings.media_border_opacity | divided_by: 100.0 }};
@@ -202,6 +254,9 @@
         --variant-pills-shadow-horizontal-offset: {{ settings.variant_pills_shadow_horizontal_offset }}px;
         --variant-pills-shadow-vertical-offset: {{ settings.variant_pills_shadow_vertical_offset }}px;
         --variant-pills-shadow-blur-radius: {{ settings.variant_pills_shadow_blur }}px;
+
+        --text-body-size: clamp(1.333rem, 1.5vw, 1.618rem);
+        --color-display-heading: hsl(var(--color-hsl-dip-dark));
       }
 
       *,
@@ -214,6 +269,7 @@
         box-sizing: border-box;
         font-size: calc(var(--font-body-scale) * 62.5%);
         height: 100%;
+        overflow-x: hidden;
       }
 
       body {
@@ -222,7 +278,7 @@
         grid-template-columns: 100%;
         min-height: 100%;
         margin: 0;
-        font-size: 1.5rem;
+        font-size: var(--text-body-size);
         letter-spacing: 0.06rem;
         line-height: calc(1 + 0.8 / var(--font-body-scale));
         font-family: var(--font-body-family);
@@ -232,12 +288,13 @@
 
       @media screen and (min-width: 750px) {
         body {
-          font-size: 1.6rem;
+          font-size: var(--text-body-size);
         }
       }
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'variables-dip-colors.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -260,13 +317,25 @@
       >
     {%- endif -%}
 
+    {%- liquid
+      render 'vite-tag' with 'theme.scss', preload_stylesheet: true
+      render 'vite-tag' with 'theme.js'
+    -%}
+
     <script>
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
       if (Shopify.designMode) {
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  </head>
+  <script id="sg-js-global-vars">
+                        sgGlobalVars = {{ shop.metafields['sg-cc']['sg-metafield'] }};
+                        if(sgGlobalVars) {
+                            sgGlobalVars.cart = {{ cart | json }};
+                            sgGlobalVars.currentProduct = {{ product | json }};
+                            sgGlobalVars.isAdmin = {% if content_for_header contains 'adminBarInjector' or content_for_header contains 'previewBarInjector' %}true{% else %}false{% endif %};
+                        }
+                    </script></head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -334,5 +403,8 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    <script src="//code.jivosite.com/widget.js" data-jv-id="8LEByLkLYT" async></script>
+    <script async type="text/javascript" src="//static.klaviyo.com/onsite/js/klaviyo.js?company_id=LxJrGw"></script>
   </body>
 </html>

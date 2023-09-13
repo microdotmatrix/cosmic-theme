@@ -177,7 +177,7 @@
                   -%}
                 </div>
                 {%- if product.quantity_price_breaks_configured? -%}
-                  <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
+                  <div class="volume-pricing-note">
                     <span>{{ 'products.product.volume_pricing.note' | t }}</span>
                   </div>
                 {%- endif -%}
@@ -361,7 +361,7 @@
                       </price-per-item>
                     {%- endif -%}
                   </div>
-                  <div class="quantity__rules caption no-js-hidden" id="Quantity-Rules-{{ section.id }}">
+                  <div class="quantity__rules caption no-js-hidden">
                     {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
                       <span class="divider">
                         {{-
@@ -654,13 +654,13 @@
             "sku": {{ variant.sku | json }},
           {%- endif -%}
           {%- if variant.barcode.size == 12 -%}
-              "gtin12": {{ variant.barcode | json }},
+              "gtin12": {{ variant.barcode }},
           {%- endif -%}
           {%- if variant.barcode.size == 13 -%}
-            "gtin13": {{ variant.barcode | json }},
+            "gtin13": {{ variant.barcode }},
           {%- endif -%}
           {%- if variant.barcode.size == 14 -%}
-            "gtin14": {{ variant.barcode | json }},
+            "gtin14": {{ variant.barcode }},
           {%- endif -%}
           "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
           "price" : {{ variant.price | divided_by: 100.00 | json }},

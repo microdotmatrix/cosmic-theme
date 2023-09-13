@@ -50,6 +50,8 @@
   text-decoration: none;
   transition: text-decoration var(--duration-short) ease;
   word-wrap: break-word;
+  font-size: calc(var(--text-body-size) * 1.2);
+  font-family: var(--font-oswald);
 }
 
 .mega-menu__link--level-2 {

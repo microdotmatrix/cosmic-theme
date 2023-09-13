@@ -53,6 +53,12 @@
   max-width: 30rem;
 }
 
+@media screen and (min-width: 768px) {
+  .cart-item__details>* {
+    max-width: 60rem;
+  }
+}
+
 .cart-item__details>*+* {
   margin-top: 0.6rem;
 }
@@ -75,6 +81,14 @@
 .cart-item__name {
   text-decoration: none;
   display: block;
+  font-family: var(--font-heading-alt-family);
+  text-wrap: none;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-item__name {
+    text-wrap: balance;
+  }
 }
 
 .cart-item__name:hover {

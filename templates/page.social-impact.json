@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "e5ba085c-96a2-431a-b63b-c81a578a4808": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20765318938913__e5ba085c-96a2-431a-b63b-c81a578a4808-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/social-impact__trevor-project.jpg",
+            "title": "01: Choose Your Device",
+            "title_size": "h2",
+            "text": "<p>5% of select Dipper purchases are donated.<\/p><p>1% of EVRI sales go to drug policy reform. An additional 1% of EVRI purchases go to a designated nonprofit.<\/p>",
+            "link_label": "",
+            "link": "",
+            "content_center": false
+          }
+        },
+        "template--20765318938913__e5ba085c-96a2-431a-b63b-c81a578a4808-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/social-impact__blood-donations.jpg",
+            "title": "02: Choose Your Cause",
+            "title_size": "h2",
+            "text": "<p>Different device colors support different aid organizations.<\/p><p>Choose your cause when you choose your color.<\/p>",
+            "link_label": "",
+            "link": "",
+            "content_center": false
+          }
+        },
+        "template--20765318938913__e5ba085c-96a2-431a-b63b-c81a578a4808-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/social-impact__land-conservation.jpg",
+            "title": "03: Have an Impact",
+            "title_size": "h2",
+            "text": "<p>Dip Devices will automatically donate to the cause you choose.<\/p>",
+            "link_label": "",
+            "link": "",
+            "content_center": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20765318938913__e5ba085c-96a2-431a-b63b-c81a578a4808-column-1",
+        "template--20765318938913__e5ba085c-96a2-431a-b63b-c81a578a4808-column-2",
+        "template--20765318938913__e5ba085c-96a2-431a-b63b-c81a578a4808-column-3"
+      ],
+      "settings": {
+        "title": "How it Works",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-bb28e5fd-027e-411d-a5c2-137b4fd42763",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "info_overlay": false
+      }
+    },
+    "c0cd9762-abf0-4245-8409-b569d0cac50a": {
+      "type": "multirow",
+      "blocks": {
+        "template--20765318938913__c0cd9762-abf0-4245-8409-b569d0cac50a-row-1": {
+          "type": "row",
+          "repeater": "{{ page.metafields.custom.social_impact_donations.value }}",
+          "settings": {
+            "image": "{{ block.repeater.image.value }}",
+            "caption": "{{ block.repeater.donations.value }}",
+            "heading": "{{ block.repeater.title.value }}",
+            "text": "{{ block.repeater.description | metafield_tag }}",
+            "button_label": "Get Involved",
+            "button_link": "{{ block.repeater.get_involved_link.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--20765318938913__c0cd9762-abf0-4245-8409-b569d0cac50a-row-1"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e5ba085c-96a2-431a-b63b-c81a578a4808",
+    "c0cd9762-abf0-4245-8409-b569d0cac50a"
+  ]
+}
