@@ -1,12 +1,12 @@
 {
-  "frontend/entrypoints/theme.js": {
+  "frontend\/entrypoints\/theme.js": {
     "file": "theme.min.js",
     "isEntry": true,
-    "src": "frontend/entrypoints/theme.js"
+    "src": "frontend\/entrypoints\/theme.js"
   },
-  "frontend/entrypoints/theme.scss": {
+  "frontend\/entrypoints\/theme.scss": {
     "file": "theme.min.css",
     "isEntry": true,
-    "src": "frontend/entrypoints/theme.scss"
+    "src": "frontend\/entrypoints\/theme.scss"
   }
 }

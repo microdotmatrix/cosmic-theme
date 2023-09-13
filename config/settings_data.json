@@ -1,8 +1,8 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Dip-Devices-landscape-black.png",
+    "logo": "shopify:\/\/shop_images\/dip-devices-logo-web_410x_421e68f5-8d22-4c9e-8ec8-a37dada2f62a.png",
     "logo_width": 240,
-    "favicon": "shopify:\/\/shop_images\/dip_icon_47dc2aef-783b-461f-be20-ac4712cc1c97.png",
+    "favicon": "shopify:\/\/shop_images\/dip_favicon.png",
     "type_header_font": "oswald_n4",
     "heading_scale": 100,
     "type_body_font": "work_sans_n4",
@@ -99,7 +99,7 @@
     "sold_out_badge_color_scheme": "inverse",
     "brand_headline": "",
     "brand_description": "",
-    "brand_image": "shopify:\/\/shop_images\/Dip-Devices-landscape-black.png",
+    "brand_image": "shopify:\/\/shop_images\/dip-devices-logo-web_410x_421e68f5-8d22-4c9e-8ec8-a37dada2f62a.png",
     "brand_image_width": 250,
     "social_facebook_link": "https:\/\/facebook.com\/dipdevices",
     "social_instagram_link": "https:\/\/www.instagram.com\/dipdevices\/",
@@ -113,7 +113,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "currency_code_enabled": true,
+    "currency_code_enabled": false,
     "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": false,

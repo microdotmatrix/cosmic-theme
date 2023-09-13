@@ -6,7 +6,7 @@
         "template--20168172470561__6a30cf48-39f3-48a6-ac07-fc45b313d8e3-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_2000x_947e2688-9e1e-47df-ab84-0daad6748d10.webp",
+            "image": "shopify:\/\/shop_images\/1_1cdc216f-7b47-4474-832b-4d6f620c883d.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -24,7 +24,7 @@
         "template--20168172470561__6a30cf48-39f3-48a6-ac07-fc45b313d8e3-slide-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_1400x_84efeb76-83bb-4085-ac0f-ef7027f6ff5a.webp",
+            "image": "shopify:\/\/shop_images\/4.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -42,7 +42,7 @@
         "7486236e-a0f4-4591-a027-5ff7ecdcbed7": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DIP-homepage-hero-LD_2000x_6726f9f6-5030-40dc-9724-e199403e75f5.jpg",
+            "image": "shopify:\/\/shop_images\/DIP-homepage-hero-LD.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -60,7 +60,7 @@
         "b40e78ea-f405-49d1-bd7b-1b7a7b963cbd": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DIP-homepage-hero-EVRI_2000x_80579050-69d6-4994-99c4-c0e4e7147c5b.webp",
+            "image": "shopify:\/\/shop_images\/DIP-homepage-hero-EVRI.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -78,7 +78,7 @@
         "a57c10a2-3f49-42b1-a49e-bcb42880d59c": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DIP-homepage-hero-dipper_2000x_5bb0d9c0-183c-449a-9284-bb05e07ee712.webp",
+            "image": "shopify:\/\/shop_images\/DIP-homepage-hero-dipper.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -118,7 +118,7 @@
         "66d78807-0ed2-4394-9ad2-93dd80e8d099": {
           "type": "promo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/medium_1_8b78ed5a-40a5-4920-863c-30dc4f61a132.jpg",
+            "image": "shopify:\/\/shop_images\/EVRI-web-hero-4.jpg",
             "title": "Evri",
             "description": "Compact and multifunctional. Vape discretely and dab without a torch.",
             "url": "shopify:\/\/products\/evri-for-510-flower-and-concentrates"
@@ -127,7 +127,7 @@
         "bc123aa2-1b27-4de5-913f-846750592000": {
           "type": "promo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dipper-web-hero-4color_1000x_076d09a1-02af-461f-95ec-e4520d76ad39.webp",
+            "image": "shopify:\/\/shop_images\/Dipper-web-hero-4color.jpg",
             "title": "Dipper",
             "description": "Robust, high powered dab pen and honey straw.",
             "url": "shopify:\/\/products\/dipper-vaporizer"
@@ -178,7 +178,6 @@
         "template--20168172470561__01e874cf-f1cc-46b8-8844-6012df9516e3-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BeFunky-design_2_Cropped_1_600x_c538e18d-57b4-4e5d-8d15-de44091e37f4.webp",
             "title": "Innovative",
             "title_size": "h2",
             "text": "<p>EVRI is a revolutionary, continuously evolving consumption solution. The device features interchangeable, magnetic attachments for a versatile experience. Currently available attachments are our classic Vapor Tip electric dab straw, a Quartz Crystal Attachment for a traditional \"dab pen\" hit, and a 2-in-1 attachment for 510 Cartridges and Refillable Pods.<\/p>",
@@ -190,7 +189,6 @@
         "template--20168172470561__01e874cf-f1cc-46b8-8844-6012df9516e3-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BeFunky-design_3_Cropped_600x_71818ea8-379e-454b-920f-6d63d25e7294.webp",
             "title": "Durable",
             "title_size": "h3",
             "text": "<p>The Dipper is a 2-in-1 dab pen and electric honey straw built for extreme durability and reliability. The tips are replaceable so there are no worries about a messy device. It features three high powered heat settings that let you dab without a torch, and includes a comprehensive one year warranty.<\/p>",
@@ -229,7 +227,7 @@
         "template--20168172470561__0513f1e4-e826-4966-b230-cf246d47ae95-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BeFunky-design_2_Cropped_1_600x_c538e18d-57b4-4e5d-8d15-de44091e37f4.webp",
+            "image": "shopify:\/\/shop_images\/BeFunky-design_2_Cropped_1.png",
             "title": "Innovative",
             "text": "<p>EVRI is a revolutionary, continuously evolving consumption solution. The device features interchangeable, magnetic attachments for a versatile experience. Currently available attachments are our classic Vapor Tip electric dab straw, a Quartz Crystal Attachment for a traditional \"dab pen\" hit, and a 2-in-1 attachment for 510 Cartridges and Refillable Pods.<\/p>",
             "link_label": "Explore device configurations",
@@ -239,7 +237,7 @@
         "template--20168172470561__0513f1e4-e826-4966-b230-cf246d47ae95-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BeFunky-design_3_Cropped_600x_71818ea8-379e-454b-920f-6d63d25e7294.webp",
+            "image": "shopify:\/\/shop_images\/BeFunky-design_3_Cropped.png",
             "title": "Durable",
             "text": "<p>The Dipper is a 2-in-1 dab pen and electric honey straw built for extreme durability and reliability. The tips are replaceable so there are no worries about a messy device. It features three high powered heat settings that let you dab without a torch, and includes a comprehensive one year warranty.<\/p>",
             "link_label": "Put it to the test",
@@ -361,7 +359,7 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=IIUfDVU5Zos",
-        "cover_image": "shopify:\/\/shop_images\/DIP-web-video-bg-homepage_1500x_f1fd17d4-a49a-43f6-87e2-ac74b7b06fe8.webp",
+        "cover_image": "shopify:\/\/shop_images\/DIP-web-video-bg-homepage.jpg",
         "description": "",
         "full_width": true,
         "color_scheme": "background-1",
