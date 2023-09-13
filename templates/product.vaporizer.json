@@ -181,22 +181,13 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "Image banner",
+            "heading": "",
             "heading_size": "h1"
-          }
-        },
-        "template--20629132509473__cbfba762-f835-4c68-a1a9-3114244807cb-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "template--20629132509473__cbfba762-f835-4c68-a1a9-3114244807cb-heading-1",
-        "template--20629132509473__cbfba762-f835-4c68-a1a9-3114244807cb-text-1"
+        "template--20629132509473__cbfba762-f835-4c68-a1a9-3114244807cb-heading-1"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.device_hero_image.value }}",
@@ -252,7 +243,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "You may also like",
+        "heading": "Related Products",
         "heading_size": "h2",
         "products_to_show": 5,
         "columns_desktop": 5,
@@ -262,7 +253,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 28
       }
