@@ -1,5 +1,217 @@
 {
-  "current": "Default",
+  "current": {
+    "logo": "shopify:\/\/shop_images\/Dip-Devices-landscape-black.png",
+    "logo_width": 240,
+    "favicon": "shopify:\/\/shop_images\/dip_icon_47dc2aef-783b-461f-be20-ac4712cc1c97.png",
+    "type_header_font": "oswald_n4",
+    "heading_scale": 100,
+    "type_body_font": "work_sans_n4",
+    "body_scale": 100,
+    "page_width": 1600,
+    "spacing_sections": 0,
+    "spacing_grid_horizontal": 12,
+    "spacing_grid_vertical": 12,
+    "animations_hover_elements": "3d-lift",
+    "buttons_border_thickness": 1,
+    "buttons_border_opacity": 100,
+    "buttons_radius": 0,
+    "buttons_shadow_opacity": 0,
+    "buttons_shadow_horizontal_offset": 0,
+    "buttons_shadow_vertical_offset": 4,
+    "buttons_shadow_blur": 5,
+    "variant_pills_border_thickness": 0,
+    "variant_pills_border_opacity": 55,
+    "variant_pills_radius": 0,
+    "variant_pills_shadow_opacity": 0,
+    "variant_pills_shadow_horizontal_offset": 0,
+    "variant_pills_shadow_vertical_offset": 4,
+    "variant_pills_shadow_blur": 5,
+    "inputs_border_thickness": 1,
+    "inputs_border_opacity": 55,
+    "inputs_radius": 0,
+    "inputs_shadow_opacity": 15,
+    "inputs_shadow_horizontal_offset": 0,
+    "inputs_shadow_vertical_offset": 4,
+    "inputs_shadow_blur": 15,
+    "card_style": "standard",
+    "card_image_padding": 0,
+    "card_text_alignment": "center",
+    "card_color_scheme": "background-2",
+    "card_border_thickness": 0,
+    "card_border_opacity": 10,
+    "card_corner_radius": 0,
+    "card_shadow_opacity": 0,
+    "card_shadow_horizontal_offset": 0,
+    "card_shadow_vertical_offset": 4,
+    "card_shadow_blur": 25,
+    "collection_card_style": "card",
+    "collection_card_image_padding": 0,
+    "collection_card_text_alignment": "right",
+    "collection_card_color_scheme": "background-2",
+    "collection_card_border_thickness": 0,
+    "collection_card_border_opacity": 10,
+    "collection_card_corner_radius": 0,
+    "collection_card_shadow_opacity": 0,
+    "collection_card_shadow_horizontal_offset": 0,
+    "collection_card_shadow_vertical_offset": 4,
+    "collection_card_shadow_blur": 5,
+    "blog_card_style": "standard",
+    "blog_card_image_padding": 0,
+    "blog_card_text_alignment": "left",
+    "blog_card_color_scheme": "background-2",
+    "blog_card_border_thickness": 0,
+    "blog_card_border_opacity": 10,
+    "blog_card_corner_radius": 0,
+    "blog_card_shadow_opacity": 0,
+    "blog_card_shadow_horizontal_offset": 0,
+    "blog_card_shadow_vertical_offset": 4,
+    "blog_card_shadow_blur": 5,
+    "text_boxes_border_thickness": 0,
+    "text_boxes_border_opacity": 10,
+    "text_boxes_radius": 0,
+    "text_boxes_shadow_opacity": 0,
+    "text_boxes_shadow_horizontal_offset": 0,
+    "text_boxes_shadow_vertical_offset": 4,
+    "text_boxes_shadow_blur": 5,
+    "media_border_thickness": 1,
+    "media_border_opacity": 5,
+    "media_radius": 0,
+    "media_shadow_opacity": 0,
+    "media_shadow_horizontal_offset": 0,
+    "media_shadow_vertical_offset": 4,
+    "media_shadow_blur": 5,
+    "popup_border_thickness": 1,
+    "popup_border_opacity": 10,
+    "popup_corner_radius": 0,
+    "popup_shadow_opacity": 5,
+    "popup_shadow_horizontal_offset": 0,
+    "popup_shadow_vertical_offset": 4,
+    "popup_shadow_blur": 5,
+    "drawer_border_thickness": 1,
+    "drawer_border_opacity": 10,
+    "drawer_shadow_opacity": 0,
+    "drawer_shadow_horizontal_offset": 0,
+    "drawer_shadow_vertical_offset": 4,
+    "drawer_shadow_blur": 5,
+    "badge_position": "bottom left",
+    "badge_corner_radius": 6,
+    "sale_badge_color_scheme": "accent-2",
+    "sold_out_badge_color_scheme": "inverse",
+    "brand_headline": "",
+    "brand_description": "",
+    "brand_image": "shopify:\/\/shop_images\/Dip-Devices-landscape-black.png",
+    "brand_image_width": 250,
+    "social_facebook_link": "https:\/\/facebook.com\/dipdevices",
+    "social_instagram_link": "https:\/\/www.instagram.com\/dipdevices\/",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCQpX1jS1L2QQEF82vae8miw",
+    "social_tiktok_link": "",
+    "social_twitter_link": "https:\/\/twitter.com\/dipdevices",
+    "social_snapchat_link": "",
+    "social_pinterest_link": "",
+    "social_tumblr_link": "",
+    "social_vimeo_link": "https:\/\/vimeo.com\/user54621452",
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "currency_code_enabled": true,
+    "cart_type": "notification",
+    "show_vendor": false,
+    "show_cart_note": false,
+    "cart_drawer_collection": "",
+    "sections": {
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "10261849759452303822": {
+        "type": "shopify:\/\/apps\/shoppinggives\/blocks\/app-embed-block\/7b6c2cd4-8962-4dc6-975b-870e1f567789",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    },
+    "color_schemes": {
+      "background-1": {
+        "settings": {
+          "background": "#fafeff",
+          "background_gradient": "",
+          "text": "#232222",
+          "button": "#111104",
+          "button_label": "#fafeff",
+          "secondary_button_label": "#111104",
+          "shadow": "#232222"
+        }
+      },
+      "background-2": {
+        "settings": {
+          "background": "#eef2f5",
+          "background_gradient": "",
+          "text": "#232222",
+          "button": "#414143",
+          "button_label": "#eef2f5",
+          "secondary_button_label": "#414143",
+          "shadow": "#232222"
+        }
+      },
+      "inverse": {
+        "settings": {
+          "background": "#232222",
+          "background_gradient": "",
+          "text": "#fafeff",
+          "button": "#eef2f5",
+          "button_label": "#414143",
+          "secondary_button_label": "#eef2f5",
+          "shadow": "#232222"
+        }
+      },
+      "accent-1": {
+        "settings": {
+          "background": "#111104",
+          "background_gradient": "",
+          "text": "#fafeff",
+          "button": "#eef2f5",
+          "button_label": "#232222",
+          "secondary_button_label": "#eef2f5",
+          "shadow": "#121212"
+        }
+      },
+      "accent-2": {
+        "settings": {
+          "background": "#f7b334",
+          "background_gradient": "linear-gradient(180deg, rgba(247, 179, 52, 1), rgba(248, 148, 28, 1) 100%)",
+          "text": "#111104",
+          "button": "#111104",
+          "button_label": "#414143",
+          "secondary_button_label": "#111104",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-bb28e5fd-027e-411d-a5c2-137b4fd42763": {
+        "settings": {
+          "background": "#414143",
+          "background_gradient": "",
+          "text": "#fafeff",
+          "button": "#f7b334",
+          "button_label": "#fafeff",
+          "secondary_button_label": "#f7b334",
+          "shadow": "#232222"
+        }
+      }
+    }
+  },
   "presets": {
     "Default": {
       "logo_width": 90,
