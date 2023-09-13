@@ -38,10 +38,10 @@
       "settings": {
         "title": "Featured collection",
         "heading_size": "h2",
-        "description": "<h5>Little Dipper<\/h5>",
+        "description": "<h5>EVRI<\/h5>",
         "show_description": false,
         "description_style": "uppercase",
-        "collection": "little-dipper",
+        "collection": "evri-attachments",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -67,7 +67,7 @@
         "template--20168172601633__58b4d102-8dbb-4706-918b-0a3d2825b7e2-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "vaporizers"
+            "collection": "vaporizers-dab-straws"
           }
         },
         "template--20168172601633__58b4d102-8dbb-4706-918b-0a3d2825b7e2-featured_collection-2": {
