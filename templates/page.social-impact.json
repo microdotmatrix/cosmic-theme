@@ -13,7 +13,7 @@
         "template--20765318938913__e5ba085c-96a2-431a-b63b-c81a578a4808-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/social-impact__trevor-project.jpg",
+            "image": "shopify:\/\/shop_images\/LGBTQIA_-1.jpg",
             "title": "01: Choose Your Device",
             "text": "<p>5% of select Dipper purchases are donated.<\/p><p>1% of EVRI sales go to drug policy reform. An additional 1% of EVRI purchases go to a designated nonprofit.<\/p>",
             "link_label": "",
@@ -23,7 +23,7 @@
         "template--20765318938913__e5ba085c-96a2-431a-b63b-c81a578a4808-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/social-impact__blood-donations.jpg",
+            "image": "shopify:\/\/shop_images\/blood-donation-1.jpg",
             "title": "02: Choose Your Cause",
             "text": "<p>Different device colors support different aid organizations.<\/p><p>Choose your cause when you choose your color.<\/p>",
             "link_label": "",
@@ -33,7 +33,7 @@
         "template--20765318938913__e5ba085c-96a2-431a-b63b-c81a578a4808-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/social-impact__land-conservation.jpg",
+            "image": "shopify:\/\/shop_images\/reforestation-1.jpg",
             "title": "03: Have an Impact",
             "text": "<p>Dip Devices will automatically donate to the cause you choose.<\/p>",
             "link_label": "",
@@ -49,10 +49,10 @@
       "settings": {
         "title": "How it Works",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
