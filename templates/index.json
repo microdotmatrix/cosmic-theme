@@ -424,7 +424,7 @@
         "padding_bottom": 52
       }
     },
-    "060981d7-f90f-4863-972e-efb276eb19d9": {
+    "2105da2f-cc4c-4be3-bd92-d87ec6c15b04": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-NKhHLL\"><\/div>",
@@ -444,6 +444,6 @@
     "c92af8cc-0272-4b2a-a3a3-673642616f75",
     "video",
     "d21d5b93-2765-4f1f-a66b-62bed08c6cf7",
-    "060981d7-f90f-4863-972e-efb276eb19d9"
+    "2105da2f-cc4c-4be3-bd92-d87ec6c15b04"
   ]
 }
