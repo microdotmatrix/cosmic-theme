@@ -6,9 +6,30 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "16947272873c721d40": {
+      "type": "apps",
+      "blocks": {
+        "f9ccccc9-702f-4dbe-8a85-3aa2ec1edb4f": {
+          "type": "shopify:\/\/apps\/helium-customer-fields\/blocks\/app-block\/bab58598-3e6a-4377-aaaa-97189b15f131",
+          "settings": {
+            "form_id": "gBXtzx",
+            "width": 600,
+            "vertical_spacing": 60,
+            "horizontal_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "f9ccccc9-702f-4dbe-8a85-3aa2ec1edb4f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16947272873c721d40"
   ]
 }
