@@ -413,12 +413,22 @@
         "template--20168172470561__d21d5b93-2765-4f1f-a66b-62bed08c6cf7-paragraph-1",
         "template--20168172470561__d21d5b93-2765-4f1f-a66b-62bed08c6cf7-email_form-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".newsletter {margin-top: -1px;}"
       ],
       "settings": {
         "color_scheme": "accent-2",
         "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "060981d7-f90f-4863-972e-efb276eb19d9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-NKhHLL\"><\/div>",
+        "color_scheme": "accent-2",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -433,6 +443,7 @@
     "collage",
     "c92af8cc-0272-4b2a-a3a3-673642616f75",
     "video",
-    "d21d5b93-2765-4f1f-a66b-62bed08c6cf7"
+    "d21d5b93-2765-4f1f-a66b-62bed08c6cf7",
+    "060981d7-f90f-4863-972e-efb276eb19d9"
   ]
 }
