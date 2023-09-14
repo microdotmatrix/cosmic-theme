@@ -73,6 +73,22 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "d82794c3-273a-430c-8e56-d7fa08cd5db2": {
+          "type": "shopify:\/\/apps\/shoppinggives\/blocks\/donation-on-purchase\/7b6c2cd4-8962-4dc6-975b-870e1f567789",
+          "settings": {
+            "widget_style": "1",
+            "full_width": false,
+            "title": "You Shop. We Give.",
+            "title_color": "#121212",
+            "main_text_color": "#121212",
+            "link_color": "#121212",
+            "background_color": "transparent",
+            "border_color": "#121212",
+            "border_radius": 0,
+            "widget_font": "helvetica_n4",
+            "font_size": 12
+          }
         }
       },
       "block_order": [
@@ -86,7 +102,8 @@
         "description",
         "collapsible-row-1",
         "collapsible-row-3",
-        "share"
+        "share",
+        "d82794c3-273a-430c-8e56-d7fa08cd5db2"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -101,6 +118,12 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "1694722805e0061fd8": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
       }
     },
     "related-products": {
@@ -124,6 +147,7 @@
   },
   "order": [
     "main",
+    "1694722805e0061fd8",
     "related-products"
   ]
 }
