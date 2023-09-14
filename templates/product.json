@@ -38,6 +38,22 @@
           "settings": {
           }
         },
+        "d82794c3-273a-430c-8e56-d7fa08cd5db2": {
+          "type": "shopify:\/\/apps\/shoppinggives\/blocks\/donation-on-purchase\/7b6c2cd4-8962-4dc6-975b-870e1f567789",
+          "settings": {
+            "widget_style": "1",
+            "full_width": false,
+            "title": "You Shop. We Give.",
+            "title_color": "#121212",
+            "main_text_color": "#121212",
+            "link_color": "#121212",
+            "background_color": "transparent",
+            "border_color": "#121212",
+            "border_radius": 0,
+            "widget_font": "helvetica_n4",
+            "font_size": 12
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -73,22 +89,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "d82794c3-273a-430c-8e56-d7fa08cd5db2": {
-          "type": "shopify:\/\/apps\/shoppinggives\/blocks\/donation-on-purchase\/7b6c2cd4-8962-4dc6-975b-870e1f567789",
-          "settings": {
-            "widget_style": "1",
-            "full_width": false,
-            "title": "You Shop. We Give.",
-            "title_color": "#121212",
-            "main_text_color": "#121212",
-            "link_color": "#121212",
-            "background_color": "transparent",
-            "border_color": "#121212",
-            "border_radius": 0,
-            "widget_font": "helvetica_n4",
-            "font_size": 12
-          }
         }
       },
       "block_order": [
@@ -98,12 +98,12 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "d82794c3-273a-430c-8e56-d7fa08cd5db2",
         "buy_buttons",
         "description",
         "collapsible-row-1",
         "collapsible-row-3",
-        "share",
-        "d82794c3-273a-430c-8e56-d7fa08cd5db2"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
