@@ -134,14 +134,14 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Features",
+            "heading": "Items Included",
             "heading_size": "h1"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.special_features | metafield_tag }}",
+            "text": "{{ product.metafields.custom.bundled_items | metafield_tag }}",
             "text_style": "body"
           }
         },
