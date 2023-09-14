@@ -86,7 +86,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
+            "content": "{{ product.metafields.custom.device_care_guide | metafield_tag }}",
             "page": ""
           }
         },
@@ -122,7 +122,7 @@
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
-        "hide_variants": true,
+        "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
@@ -134,14 +134,14 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Included Items",
+            "heading": "Features",
             "heading_size": "h1"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.bundled_items | metafield_tag }}",
+            "text": "{{ product.metafields.custom.special_features | metafield_tag }}",
             "text_style": "body"
           }
         },
@@ -181,22 +181,13 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "Image banner",
+            "heading": "",
             "heading_size": "h1"
-          }
-        },
-        "template--20629132509473__cbfba762-f835-4c68-a1a9-3114244807cb-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "template--20629132509473__cbfba762-f835-4c68-a1a9-3114244807cb-heading-1",
-        "template--20629132509473__cbfba762-f835-4c68-a1a9-3114244807cb-text-1"
+        "template--20629132509473__cbfba762-f835-4c68-a1a9-3114244807cb-heading-1"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.device_hero_image.value }}",
@@ -212,10 +203,47 @@
         "show_text_below": true
       }
     },
+    "052da6c7-bf07-4bf4-b2fa-ff1e5ac57058": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20629132509473__052da6c7-bf07-4bf4-b2fa-ff1e5ac57058-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1"
+          }
+        },
+        "template--20629132509473__052da6c7-bf07-4bf4-b2fa-ff1e5ac57058-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.our_story | metafield_tag }}",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--20629132509473__052da6c7-bf07-4bf4-b2fa-ff1e5ac57058-heading-1",
+        "template--20629132509473__052da6c7-bf07-4bf4-b2fa-ff1e5ac57058-text-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.our_story_image.value }}",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "You may also like",
+        "heading": "Related Products",
         "heading_size": "h2",
         "products_to_show": 5,
         "columns_desktop": 5,
@@ -225,9 +253,45 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 28
+      }
+    },
+    "634cc856-b271-4ed7-9f1e-858f8ecd50f7": {
+      "type": "image-banner",
+      "blocks": {
+        "template--20629132509473__634cc856-b271-4ed7-9f1e-858f8ecd50f7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Toss the Torch",
+            "heading_size": "h1"
+          }
+        },
+        "template--20629132509473__634cc856-b271-4ed7-9f1e-858f8ecd50f7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "#tossthetorch",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--20629132509473__634cc856-b271-4ed7-9f1e-858f8ecd50f7-heading-1",
+        "template--20629132509473__634cc856-b271-4ed7-9f1e-858f8ecd50f7-text-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.toss_the_torch_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -235,6 +299,8 @@
     "main",
     "image-with-text",
     "cbfba762-f835-4c68-a1a9-3114244807cb",
-    "related-products"
+    "052da6c7-bf07-4bf4-b2fa-ff1e5ac57058",
+    "related-products",
+    "634cc856-b271-4ed7-9f1e-858f8ecd50f7"
   ]
 }
