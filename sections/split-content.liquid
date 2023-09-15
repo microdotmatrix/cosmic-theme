@@ -1,0 +1,59 @@
+<div></div>
+
+{% schema %}
+  {
+    "name": "Split Column",
+    "class": "split-column",
+    "tag": "section",
+    "max_blocks": 2,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Content Block",
+        "type": "content",
+        "settings": [
+          {
+            "type": "page",
+            "id": "page",
+            "label": "Insert content from another page"
+          }
+        ]
+      },
+      {
+        "name": "Rich Text Block",
+        "type": "richtext",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Split Page Columns",
+        "blocks": [
+          {
+            "type": "richtext"
+          },
+          {
+            "type": "content"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
