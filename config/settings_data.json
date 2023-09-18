@@ -118,6 +118,13 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/dip-devices-logo-web_410x_421e68f5-8d22-4c9e-8ec8-a37dada2f62a.png",
+    "checkout_logo_position": "center",
+    "checkout_sidebar_background_color": "#eef2f5",
+    "checkout_heading_font": "Oswald",
+    "checkout_body_font": "Open Sans",
+    "checkout_accent_color": "#f7b334",
+    "checkout_button_color": "#111104",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
