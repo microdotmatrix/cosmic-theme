@@ -373,6 +373,9 @@
     },
     "video": {
       "type": "video",
+      "custom_css": [
+        ".video-section {margin-bottom: -1px;}"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -426,6 +429,9 @@
     },
     "2105da2f-cc4c-4be3-bd92-d87ec6c15b04": {
       "type": "custom-liquid",
+      "custom_css": [
+
+      ],
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-NKhHLL\"><\/div>",
         "color_scheme": "accent-2",
