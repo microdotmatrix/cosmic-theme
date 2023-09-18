@@ -52,6 +52,8 @@
   word-wrap: break-word;
   font-size: calc(var(--text-body-size) * 1.2);
   font-family: var(--font-oswald);
+  position: relative;
+  z-index: 100;
 }
 
 .mega-menu__link--level-2 {
@@ -74,6 +76,8 @@
 .mega-menu__link--active {
   color: rgb(var(--color-foreground));
   text-decoration: underline;
+  position: relative;
+  z-index: 100;
 }
 
 .mega-menu__link--active:hover {

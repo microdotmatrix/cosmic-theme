@@ -1,4 +1,15 @@
-<div></div>
+<div>
+  {%- for block in section.blocks -%}
+    <div class="page-content-block {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      {%- if block.settings.page != blank -%}
+        <div class="page-content-block__content">
+          {{ block.settings.page.content }}
+        </div>
+      {%- endif -%}
+
+    </div>
+  {%- endfor -%}
+</div>
 
 {% schema %}
   {
