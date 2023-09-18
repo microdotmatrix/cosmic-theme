@@ -374,7 +374,7 @@
     "video": {
       "type": "video",
       "custom_css": [
-        ".video-section {margin-top: -1px;}"
+        ".video-section {margin-bottom: -1px;}"
       ],
       "settings": {
         "heading": "",
