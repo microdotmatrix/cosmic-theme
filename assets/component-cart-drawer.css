@@ -30,6 +30,12 @@
   transition: transform var(--duration-default) ease;
 }
 
+@media screen and (min-width: 768px) {
+  .drawer__inner {
+    padding: 0 3rem 1.5rem 1.5rem;
+  }
+}
+
 .drawer__inner-empty {
   height: 100%;
   padding: 0 1.5rem;
