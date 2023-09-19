@@ -31,13 +31,16 @@
         "footer-1",
         "f3f6905b-dde0-48fe-bead-6fc0e251e571"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "color_scheme": "scheme-bb28e5fd-027e-411d-a5c2-137b4fd42763",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": false,
-        "enable_country_selector": false,
+        "enable_country_selector": true,
         "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": false,
