@@ -1,0 +1,65 @@
+<!-- /snippets/social-sharing.liquid -->
+
+{%- assign totalShares = 0 -%}
+{% if settings.share_facebook %}
+  {%- assign totalShares = totalShares | plus:1 -%}
+{% endif %}
+{% if settings.share_twitter %}
+  {%- assign totalShares = totalShares | plus:1 -%}
+{% endif %}
+{% if settings.share_pinterest %}
+  {%- assign totalShares = totalShares | plus:1 -%}
+{% endif %}
+
+{% if type == 'product' %}
+  {%- assign typeClasses = 'social-sharing--product' -%}
+{% elsif type == 'article' %}
+  {%- assign typeClasses = 'social-sharing--article' -%}
+{% else %}
+  {%- assign typeClasses = 'social-sharing--mobile' -%}
+{% endif %}
+
+
+<div class="social-sharing social-sharing--{{ totalShares }} {{ typeClasses }}">
+  <button class="btn btn--clear btn--primary-color social-sharing__toggle" aria-expanded="false" aria-controls="socialSharing">
+      <span class="social-sharing__icon">
+        {% render 'icon-share' %}
+        {% render 'icon-close' %}
+      </span>
+      <span class="social-sharing__toggle-text">Share</span>
+  </button>
+
+  <ul id="socialSharing" class="social-sharing__item-list" aria-hidden=true>
+
+    {% if settings.share_facebook %}
+      <li class="social-sharing__item">
+        <a target="_blank" href="//www.facebook.com/sharer.php?u={{ shop.url | append: share_permalink }}" class="social-sharing__link" tabindex="-1">
+          {% render 'icon-facebook' %}
+          <span class="icon__fallback-text" aria-hidden="true">Share on Facebook</span>
+          <span class="visually-hidden">Share on Facebook</span>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if settings.share_twitter %}
+      <li class="social-sharing__item">
+        <a target="_blank" href="//twitter.com/share?text={{ share_title | default: page_description | url_param_escape }}&amp;url={{ shop.url | append: share_permalink }}" class="social-sharing__link" tabindex="-1">
+          {% render 'icon-twitter' %}
+          <span class="icon__fallback-text" aria-hidden="true">Share on Twitter</span>
+          <span class="visually-hidden">Share on Twitter</span>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if settings.share_pinterest %}
+      <li class="social-sharing__item">
+        <a target="_blank" href="//pinterest.com/pin/create/button/?url={{ shop.url | append: share_permalink }}&amp;media={{ share_image | image_url: '1024x1024' }}&amp;description={{ share_title | default: page_description | url_param_escape }}" class="social-sharing__link" tabindex="-1">
+          {% render 'icon-pinterest' %}
+          <span class="icon__fallback-text" aria-hidden="true">Share on Pinterest</span>
+          <span class="visually-hidden">Share on Pinterest</span>
+        </a>
+      </li>
+    {% endif %}
+
+  </ul>
+</div>
