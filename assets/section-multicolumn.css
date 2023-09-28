@@ -76,6 +76,7 @@
 
 [data-handle="social-impact"] .multicolumn-list h3 {
   padding-top: 2rem;
+  border-bottom: 1px solid rgba(var(--color-foreground), 0.25);
 }
 
 [data-handle="social-impact"] .multicolumn-list p {
