@@ -210,55 +210,6 @@
         "padding_bottom": 48
       }
     },
-    "01e874cf-f1cc-46b8-8844-6012df9516e3": {
-      "type": "multicolumn-custom",
-      "blocks": {
-        "template--20168172470561__01e874cf-f1cc-46b8-8844-6012df9516e3-column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Innovative",
-            "title_size": "h2",
-            "text": "<p>EVRI is a revolutionary, continuously evolving consumption solution. The device features interchangeable, magnetic attachments for a versatile experience. Currently available attachments are our classic Vapor Tip electric dab straw, a Quartz Crystal Attachment for a traditional \"dab pen\" hit, and a 2-in-1 attachment for 510 Cartridges and Refillable Pods.<\/p>",
-            "link_label": "",
-            "link": "shopify:\/\/products\/evri-for-510-flower-and-concentrates",
-            "content_center": true
-          }
-        },
-        "template--20168172470561__01e874cf-f1cc-46b8-8844-6012df9516e3-column-2": {
-          "type": "column",
-          "settings": {
-            "title": "Durable",
-            "title_size": "h3",
-            "text": "<p>The Dipper is a 2-in-1 dab pen and electric honey straw built for extreme durability and reliability. The tips are replaceable so there are no worries about a messy device. It features three high powered heat settings that let you dab without a torch, and includes a comprehensive one year warranty.<\/p>",
-            "link_label": "",
-            "link": "shopify:\/\/products\/dipper-vaporizer",
-            "content_center": true
-          }
-        }
-      },
-      "block_order": [
-        "template--20168172470561__01e874cf-f1cc-46b8-8844-6012df9516e3-column-1",
-        "template--20168172470561__01e874cf-f1cc-46b8-8844-6012df9516e3-column-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "inverse",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "info_overlay": true
-      }
-    },
     "0513f1e4-e826-4966-b230-cf246d47ae95": {
       "type": "multicolumn",
       "blocks": {
@@ -297,7 +248,7 @@
         "image_ratio": "portrait",
         "columns_desktop": 2,
         "column_alignment": "center",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "inverse",
@@ -463,7 +414,6 @@
     "6a30cf48-39f3-48a6-ac07-fc45b313d8e3",
     "081e7a41-234b-4656-b69a-1050752785ad",
     "rich_text",
-    "01e874cf-f1cc-46b8-8844-6012df9516e3",
     "0513f1e4-e826-4966-b230-cf246d47ae95",
     "collage",
     "c92af8cc-0272-4b2a-a3a3-673642616f75",
