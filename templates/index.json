@@ -113,14 +113,13 @@
         },
         "577f0c01-38b5-4d2e-934a-f98af4628524": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-04_015724.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "https:\/\/dipdevices.com\/collections\/evri-attachments",
+            "link": "shopify:\/\/collections\/evri-attachments",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
