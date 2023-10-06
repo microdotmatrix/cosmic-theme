@@ -1,40 +1,5 @@
 {
   "sections": {
-    "401bb49c-ad88-44e8-b18c-937e58c90ab4": {
-      "type": "multirow",
-      "blocks": {
-        "template--20765316055329__401bb49c-ad88-44e8-b18c-937e58c90ab4-row-3": {
-          "type": "row",
-          "source": "{{ metaobject }}",
-          "settings": {
-            "image": "{{ metaobject.image.value }}",
-            "caption": "{{ metaobject.donations.value }}",
-            "heading": "{{ metaobject.title.value }}",
-            "text": "{{ metaobject.description | metafield_tag }}",
-            "button_label": "Get Involved",
-            "button_link": "{{ metaobject.get_involved_link.value }}"
-          }
-        }
-      },
-      "block_order": [
-        "template--20765316055329__401bb49c-ad88-44e8-b18c-937e58c90ab4-row-3"
-      ],
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "primary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "9852c857-8d4e-47a2-af44-7aa02adae92f": {
       "type": "image-with-text",
       "blocks": {
@@ -78,7 +43,7 @@
       "settings": {
         "image": "{{ metaobject.image.value }}",
         "height": "small",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
@@ -92,7 +57,6 @@
     }
   },
   "order": [
-    "401bb49c-ad88-44e8-b18c-937e58c90ab4",
     "9852c857-8d4e-47a2-af44-7aa02adae92f"
   ]
 }
