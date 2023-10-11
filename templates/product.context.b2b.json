@@ -4,5 +4,28 @@
     "b2b": true
   },
   "sections": {
-  }
+    "453e7b8d-791b-4cf7-a8e2-cb287dc1109e": {
+      "type": "quick-order-list",
+      "disabled": false,
+      "settings": {
+        "show_image": true,
+        "show_sku": false,
+        "color_scheme": "background-1",
+        "header-3a5e29c1e358a7b755995de75fe3dea2": null,
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
+      "blocks": {
+      },
+      "block_order": [
+
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "1694722805e0061fd8",
+    "453e7b8d-791b-4cf7-a8e2-cb287dc1109e",
+    "related-products"
+  ]
 }
