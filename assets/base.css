@@ -3553,7 +3553,7 @@ details-disclosure > details {
   text-align: center;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 1024px) {
   [data-page="contact-us"] > .section:first-of-type {
     text-align: left;
   }
