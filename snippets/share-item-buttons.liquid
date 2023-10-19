@@ -27,7 +27,7 @@
       <li class="social-buttons__item">
         <button class="share-button__button hidden">
           {% render 'icon-share' %}
-          {{ block.settings.share_label | escape }}
+          <span class="share-button__label">{{ block.settings.share_label | escape }}</span>
         </button>
         <details id="Details-{{ block.id }}-{{ section.id }}">
           <summary class="share-button__button">

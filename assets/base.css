@@ -3588,8 +3588,8 @@ details-disclosure > details {
 }
 
 .share-on-social .social-buttons .social-buttons__link {
-  width: 64px;
-  height: 64px;
+  width: 48px;
+  height: 48px;
   display: inline-block;
   color: var(--color-hex-dip-dark);
   scale: 1;
@@ -3599,6 +3599,24 @@ details-disclosure > details {
 .share-on-social .social-buttons .social-buttons__link:hover {
   color: var(--color-hex-dip-nectar);
   scale: 1.05;
+}
+
+.share-on-social .social-buttons .social-buttons__link:last-of-type {
+  margin-left: 2rem;
+}
+
+.share-on-social .social-buttons .social-buttons__link .share-button__button .share-button__label {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50px);
+}
+
+.share-on-social .social-buttons .social-buttons__link .share-button__button:hover .share-button__label {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transform: translate(0);
 }
 
 .share-on-social .social-buttons .social-buttons__link svg {
