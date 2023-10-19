@@ -3603,13 +3603,16 @@ details-disclosure > details {
 
 .share-on-social .social-buttons .social-buttons__item:last-child {
   margin-left: 2rem;
+  position: relative;
 }
 
 .share-on-social .social-buttons .social-buttons__item .share-button__button .share-button__label {
   display: none;
   visibility: hidden;
+  position: absolute;
   opacity: 0;
   transform: translate(-50px);
+  transition: opacity 0.2s ease, transform 0.2s ease-in;
 }
 
 .share-on-social .social-buttons .social-buttons__item .share-button__button:hover .share-button__label {
