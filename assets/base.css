@@ -3605,14 +3605,14 @@ details-disclosure > details {
   margin-left: 2rem;
 }
 
-.share-on-social .social-buttons .social-buttons__link .share-button__button .share-button__label {
+.share-on-social .social-buttons .social-buttons__item .share-button__button .share-button__label {
   display: none;
   visibility: hidden;
   opacity: 0;
   transform: translate(-50px);
 }
 
-.share-on-social .social-buttons .social-buttons__link .share-button__button:hover .share-button__label {
+.share-on-social .social-buttons .social-buttons__item .share-button__button:hover .share-button__label {
   display: block;
   visibility: visible;
   opacity: 1;
