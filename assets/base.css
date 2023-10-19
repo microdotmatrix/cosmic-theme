@@ -3557,4 +3557,7 @@ details-disclosure > details {
   [data-page="contact-us"] > .section:first-of-type {
     text-align: left;
   }
+  [data-page="contact-us"] > .section:last-of-type {
+    padding-right: 5rem;
+  }
 }
