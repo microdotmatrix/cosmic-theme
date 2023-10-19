@@ -3537,10 +3537,9 @@ details-disclosure > details {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 1024px) {
   [data-page="contact-us"] {
     flex-direction: row;
   }
