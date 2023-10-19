@@ -1,6 +1,7 @@
 {
   "sections": {
     "main": {
+      "id": "main",
       "type": "main-page",
       "settings": {
         "padding_top": 36,
@@ -8,6 +9,7 @@
       }
     },
     "form": {
+      "id": "form",
       "type": "contact-form",
       "settings": {
         "heading": "",
