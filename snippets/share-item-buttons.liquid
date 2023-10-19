@@ -1,25 +1,48 @@
-<section class="share-on-social">
-  <ul class="social-buttons">
-    <li class="social-buttons__item">
-      <a target="_blank" href="//www.facebook.com/sharer.php?u={{ shop.url | append: share_permalink }}" class="social-buttons__link" tabindex="-1">
-        {% render 'icon-facebook' %}
-        <span class="icon__fallback-text" aria-hidden="true">Share on Facebook</span>
-        <span class="visually-hidden">Share on Facebook</span>
-      </a>
-    </li>
-    <li class="social-buttons__item">
-      <a target="_blank" href="//twitter.com/share?text={{ share_title | default: page_description | url_param_escape }}&amp;url={{ shop.url | append: share_permalink }}" class="social-buttons__link" tabindex="-1">
-        {% render 'icon-twitter' %}
-        <span class="icon__fallback-text" aria-hidden="true">Share on Twitter</span>
-        <span class="visually-hidden">Share on Twitter</span>
-      </a>
-    </li>
-    <li class="social-buttons__item">
-      <a target="_blank" href="//pinterest.com/pin/create/button/?url={{ shop.url | append: share_permalink }}&amp;media={{ share_image | image_url: '1024x1024' }}&amp;description={{ share_title | default: page_description | url_param_escape }}" class="social-buttons__link" tabindex="-1">
-        {% render 'icon-pinterest' %}
-        <span class="icon__fallback-text" aria-hidden="true">Share on Pinterest</span>
-        <span class="visually-hidden">Share on Pinterest</span>
-      </a>
-    </li>
-  </ul>
-</section>
+<script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+
+<share-button id="Share-{{ section.id }}" class="share-button quick-add-hidden" {{ block.shopify_attributes }}>
+  <section class="share-on-social">
+    <ul class="social-buttons">
+      <li class="social-buttons__item">
+        <a target="_blank" href="//www.facebook.com/sharer.php?u={{ shop.url | append: share_permalink }}" class="social-buttons__link" tabindex="-1">
+          {% render 'icon-facebook' %}
+          <span class="icon__fallback-text" aria-hidden="true">Share on Facebook</span>
+          <span class="visually-hidden">Share on Facebook</span>
+        </a>
+      </li>
+      <li class="social-buttons__item">
+        <a target="_blank" href="//twitter.com/share?text={{ share_title | default: page_description | url_param_escape }}&amp;url={{ shop.url | append: share_permalink }}" class="social-buttons__link" tabindex="-1">
+          {% render 'icon-twitter' %}
+          <span class="icon__fallback-text" aria-hidden="true">Share on Twitter</span>
+          <span class="visually-hidden">Share on Twitter</span>
+        </a>
+      </li>
+      <li class="social-buttons__item">
+        <a target="_blank" href="//pinterest.com/pin/create/button/?url={{ shop.url | append: share_permalink }}&amp;media={{ share_image | image_url: '1024x1024' }}&amp;description={{ share_title | default: page_description | url_param_escape }}" class="social-buttons__link" tabindex="-1">
+          {% render 'icon-pinterest' %}
+          <span class="icon__fallback-text" aria-hidden="true">Share on Pinterest</span>
+          <span class="visually-hidden">Share on Pinterest</span>
+        </a>
+      </li>
+      <li class="social-buttons__item">
+        <div class="field">
+          <span id="ShareMessage-{{ section.id }}" class="share-button__message hidden" role="status"> </span>
+          <input
+            type="text"
+            class="field__input"
+            id="ShareUrl-{{ section.id }}"
+            value="{{ share_link }}"
+            placeholder="{{ 'general.share.share_url' | t }}"
+            onclick="this.select();"
+            readonly
+          >
+          <label class="field__label" for="ShareUrl-{{ section.id }}">{{ 'general.share.share_url' | t }}</label>
+        </div>
+        <button class="share-button__copy no-js-hidden">
+          {% render 'icon-clipboard' %}
+          <span class="visually-hidden">{{ 'general.share.copy_to_clipboard' | t }}</span>
+        </button>
+      </li>
+    </ul>
+  </section>
+</share-button>
