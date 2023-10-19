@@ -3537,6 +3537,8 @@ details-disclosure > details {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
+  max-width: 160rem;
 }
 
 @media screen and (min-width: 1024px) {
