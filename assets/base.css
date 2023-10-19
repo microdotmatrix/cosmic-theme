@@ -3527,3 +3527,35 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+/* To make page-specific changes to styles and elements, I added a data attribute to the
+/* <main> tag in theme.liquid that uses a liquid tag to get the page handle. This allows
+/* us to target styled elements on each page using [data-page="{{ page.handle }}"]
+*/
+
+[data-page="contact-us"] {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 750px) {
+  [data-page="contact-us"] {
+    flex-direction: row;
+  }
+}
+
+[data-page="contact-us"] > .section {
+  flex: 1;
+}
+
+[data-page="contact-us"] > .section:first-of-type {
+  text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+  [data-page="contact-us"] > .section:first-of-type {
+    text-align: left;
+  }
+}
