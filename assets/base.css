@@ -3562,5 +3562,8 @@ details-disclosure > details {
   }
   [data-page="contact-us"] > .section:last-of-type {
     padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
