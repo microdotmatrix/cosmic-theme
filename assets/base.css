@@ -3601,7 +3601,7 @@ details-disclosure > details {
   scale: 1.05;
 }
 
-.share-on-social .social-buttons .social-buttons__link:last-of-type {
+.share-on-social .social-buttons .social-buttons__link:last-child {
   margin-left: 2rem;
 }
 
