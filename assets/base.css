@@ -3567,3 +3567,22 @@ details-disclosure > details {
     justify-content: center;
   }
 }
+
+.share-on-social {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: fit-content;
+}
+
+.share-on-social .social-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
