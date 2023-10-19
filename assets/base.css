@@ -3586,3 +3586,27 @@ details-disclosure > details {
   margin: 0;
   padding: 0;
 }
+
+.share-on-social .social-buttons .social-buttons__link {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  color: var(--color-hex-dip-dark);
+  scale: 1;
+  transition: color 0.2s ease, scale 0.2s ease-in;
+}
+
+.share-on-social .social-buttons .social-buttons__link:hover {
+  color: var(--color-hex-dip-nectar);
+  scale: 1.05;
+}
+
+.share-on-social .social-buttons .social-buttons__link svg {
+  width: 100%;
+  margin: auto;
+}
+
+.share-on-social .social-buttons .social-buttons__link .icon__fallback-text {
+  display: none;
+  visibility: hidden;
+}
