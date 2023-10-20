@@ -1,0 +1,32 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    },
+    "acerill_custom_forms": {
+      "type": "apps",
+      "blocks": {
+        "acerill_custom_forms_block": {
+          "type": "shopify:\/\/apps\/acerill-form-builder\/blocks\/custom-form\/830f910d-3579-44cb-9d18-92197bb5bd98",
+          "settings": {
+            "formId": "6a10a9ca-e5e3-4442-8952-dcba12e9591f",
+            "behavior": "standard"
+          }
+        }
+      },
+      "block_order": [
+        "acerill_custom_forms_block"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "acerill_custom_forms"
+  ]
+}
