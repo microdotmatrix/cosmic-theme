@@ -5,6 +5,7 @@
       "blocks": {
         "577f0c01-38b5-4d2e-934a-f98af4628524": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-04_015724.png",
             "heading": "",
