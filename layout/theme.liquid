@@ -329,14 +329,7 @@
       }
     </script>
     
-  <script id="sg-js-global-vars">
-                        sgGlobalVars = {{ shop.metafields['sg-cc']['sg-metafield'] }};
-                        if(sgGlobalVars) {
-                            sgGlobalVars.cart = {{ cart | json }};
-                            sgGlobalVars.currentProduct = {{ product | json }};
-                            sgGlobalVars.isAdmin = {% if content_for_header contains 'adminBarInjector' or content_for_header contains 'previewBarInjector' %}true{% else %}false{% endif %};
-                        }
-                    </script></head>
+  </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -460,5 +453,14 @@
         });
       </script>
     {% endif %}
+
+    <script id="sg-js-global-vars">
+      sgGlobalVars = {{ shop.metafields['sg-cc']['sg-metafield'] }};
+      if(sgGlobalVars) {
+        sgGlobalVars.cart = {{ cart | json }};
+        sgGlobalVars.currentProduct = {{ product | json }};
+        sgGlobalVars.isAdmin = {% if content_for_header contains 'adminBarInjector' or content_for_header contains 'previewBarInjector' %}true{% else %}false{% endif %};
+      }
+    </script>
   </body>
 </html>
