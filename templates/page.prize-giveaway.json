@@ -6,9 +6,28 @@
         "padding_top": 36,
         "padding_bottom": 64
       }
+    },
+    "170379307160421dab": {
+      "type": "apps",
+      "blocks": {
+        "dfb9f2d5-ac2f-49e3-9f96-62fcf5f1cf29": {
+          "type": "shopify:\/\/apps\/acerill-form-builder\/blocks\/custom-form\/830f910d-3579-44cb-9d18-92197bb5bd98",
+          "settings": {
+            "formId": "0a980ce2-624e-465b-8922-45a3c86612f9",
+            "behavior": "standard"
+          }
+        }
+      },
+      "block_order": [
+        "dfb9f2d5-ac2f-49e3-9f96-62fcf5f1cf29"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "170379307160421dab"
   ]
 }
