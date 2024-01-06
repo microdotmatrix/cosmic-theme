@@ -105,6 +105,27 @@
     },
     "1694722805e0061fd8": {
       "type": "apps",
+      "blocks": {
+        "5a0c0462-ac3a-49f1-821a-4f815130999a": {
+          "type": "shopify:\/\/apps\/shoppinggives\/blocks\/donation-on-purchase\/7b6c2cd4-8962-4dc6-975b-870e1f567789",
+          "settings": {
+            "widget_style": "1",
+            "full_width": false,
+            "title": "You Shop. We Give.",
+            "title_color": "#121212",
+            "main_text_color": "#121212",
+            "link_color": "#414143",
+            "background_color": "transparent",
+            "border_color": "#121212",
+            "border_radius": 0,
+            "widget_font": "work_sans_n4",
+            "font_size": 12
+          }
+        }
+      },
+      "block_order": [
+        "5a0c0462-ac3a-49f1-821a-4f815130999a"
+      ],
       "settings": {
         "include_margins": true
       }
