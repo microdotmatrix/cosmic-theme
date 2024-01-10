@@ -3631,3 +3631,28 @@ details-disclosure > details {
   display: none;
   visibility: hidden;
 }
+
+.social-facebook {
+  background-color: #1877f2;
+  color: #ffffff;
+}
+
+.social-twitter {
+  background-color: #1da1f2;
+  color: #ffffff;
+}
+
+.social-instagram {
+  background-color: #f46f30;
+  color: #ffffff;
+}
+
+.social-youtube {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.social-tiktok {
+  background-color: #010101;
+  color: #ffffff;
+}

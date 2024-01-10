@@ -12,6 +12,18 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  .social-impact-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .social-impact-links > a {
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -81,7 +93,7 @@
               {%- endif -%}
               {%- if block.settings.heading -%}
                 <h2 class="image-with-text__heading {{ section.settings.heading_size }} rte">
-                  {{ block.settings.heading }}
+                  <span class="social-impact-color-swatch"></span> {{ block.settings.heading }}
                 </h2>
               {%- endif -%}
               {%- if block.settings.text -%}
@@ -99,6 +111,33 @@
                   {{ block.settings.button_label | escape }}
                 </a>
               {%- endif -%}
+              <div class="social-impact-links">
+                {%- if block.settings.facebook_link -%}
+                  <a href="{{ block.settings.facebook_link }}" class="social-impact-link-button social-facebook">
+                    FB
+                  </a>
+                {%- endif -%}
+                {%- if block.settings.twitter_link -%}
+                  <a href="{{ block.settings.twitter_link }}" class="social-impact-link-button social-twitter">
+                    TW
+                  </a>
+                {%- endif -%}
+                {%- if block.settings.instagram_link -%}
+                  <a href="{{ block.settings.instagram_link }}" class="social-impact-link-button social-instagram">
+                    IG
+                  </a>
+                {%- endif -%}
+                {%- if block.settings.youtube_link -%}
+                  <a href="{{ block.settings.youtube_link }}" class="social-impact-link-button social-youtube">
+                    YT
+                  </a>
+                {%- endif -%}
+                {%- if block.settings.tiktok_link -%}
+                  <a href="{{ block.settings.tiktok_link }}" class="social-impact-link-button social-tiktok">
+                    TT
+                  </a>
+                {%- endif -%}
+              </div>
             </div>
           </div>
         </div>
@@ -350,6 +389,11 @@
           "label": "t:sections.multirow.blocks.row.settings.image.label"
         },
         {
+          "type": "color_scheme",
+          "id": "row_color_scheme",
+          "label": "Cause Device Color"
+        },
+        {
           "type": "text",
           "id": "caption",
           "default": "Caption",
@@ -377,6 +421,31 @@
           "type": "url",
           "id": "button_link",
           "label": "t:sections.multirow.blocks.row.settings.button_link.label"
+        },
+        {
+          "type": "url",
+          "id": "facebook_link",
+          "label": "Facebook Link",
+        },
+        {
+          "type": "url",
+          "id": "twitter_link",
+          "label": "Twitter Link",
+        },
+        {
+          "type": "url",
+          "id": "instagram_link",
+          "label": "Instagram Link",
+        },
+        {
+          "type": "url",
+          "id": "youtube_link",
+          "label": "Youtube Link",
+        },
+        {
+          "type": "url",
+          "id": "tiktok_link",
+          "label": "TikTok Link",
         }
       ]
     }
