@@ -1,0 +1,8 @@
+{
+  "parent": "customers\/register.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+  }
+}
