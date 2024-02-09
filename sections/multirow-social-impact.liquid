@@ -24,6 +24,13 @@
     place-items: center;
     padding: 1rem;
   }
+  .social-impact-color-swatch {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+    background-color: var(--color-swatch-value);
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -93,7 +100,7 @@
               {%- endif -%}
               {%- if block.settings.heading -%}
                 <h2 class="image-with-text__heading {{ section.settings.heading_size }} rte">
-                  <span class="social-impact-color-swatch"></span> {{ block.settings.heading }}
+                  <span class="social-impact-color-swatch" style="--color-swatch-value: {{ block.settings.cause_color }}"></span> {{ block.settings.heading }}
                 </h2>
               {%- endif -%}
               {%- if block.settings.text -%}
@@ -389,9 +396,47 @@
           "label": "t:sections.multirow.blocks.row.settings.image.label"
         },
         {
-          "type": "color_scheme",
-          "id": "row_color_scheme",
-          "label": "Cause Device Color"
+          "type": "select",
+          "id": "cause_color",
+          "label": "Cause Device Color",
+          "options": [
+            {
+              "value": "#000000",
+              "label": "Black"
+            },
+            {
+              "value": "#FFFFFF",
+              "label": "White"
+            },
+            {
+              "value": "#FF0000",
+              "label": "Red"
+            },
+            {
+              "value": "#00FF00",
+              "label": "Forest Green"
+            },
+            {
+              "value": "#0bf72a",
+              "label": "Lime Green"
+            },
+            {
+              "value": "#0b82f7",
+              "label": "Ocean Blue"
+            },
+            {
+              "value": "#f7e70b",
+              "label": "Yellow"
+            },
+            {
+              "value": "#d40bf7",
+              "label": "Cosmic Pink"
+            },
+            {
+              "value": "#0bf7b7",
+              "label": "Rainbow"
+            }
+          ]
         },
         {
           "type": "text",
@@ -404,6 +449,12 @@
           "id": "heading",
           "default": "Row",
           "label": "t:sections.multirow.blocks.row.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>A brief summary explaining the associated social impact cause, why we support it and how.</p>",
+          "label": "t:sections.multirow.blocks.row.settings.text.label"
         },
         {
           "type": "url",
