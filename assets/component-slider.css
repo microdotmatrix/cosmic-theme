@@ -373,15 +373,22 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button {
+  --slider-button-size: 44px;
   color: rgba(var(--color-slider-controls), 0.75);
   background: transparent;
   border: none;
   cursor: pointer;
-  width: 44px;
-  height: 44px;
+  width: var(--slider-button-size);
+  height: var(--slider-button-size);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 750px) {
+  .slider-button {
+    --slider-button-size: 56px;
+  }
 }
 
 .slider-button:not([disabled]):hover {
@@ -389,7 +396,10 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button .icon {
-  height: 0.6rem;
+  --slider-icon-size: 0.6rem;
+  /* height: 0.6rem; */
+  height: var(--slider-icon-size);
+  width: var(--slider-icon-size);
 }
 
 .slider-button[disabled] .icon {
