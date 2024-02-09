@@ -15,16 +15,27 @@
   .social-impact-links {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 1rem;
+    width: 100%;
   }
-  .social-impact-links > a {
+  .social-impact-links__website {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .social-impact-links__social-media {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .social-impact-links__social-media > a {
     display: grid;
     place-items: center;
     padding: 1rem;
   }
-  .social-impact-links > a > svg {
+  .social-impact-links__social-media > a > svg {
     --social-icon-size: clamp(1.5rem, 2.5vw, 2.5rem);
     width: var(--social-icon-size);
     height: var(--social-icon-size);
@@ -120,44 +131,48 @@
               {%- if block.settings.text -%}
                 <div class="image-with-text__text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
               {%- endif -%}
-              {%- if block.settings.button_label != blank -%}
-                <a
-                  {% if block.settings.button_link == blank %}
-                    role="link" aria-disabled="true"
-                  {% else %}
-                    href="{{ block.settings.button_link }}"
-                  {% endif %}
-                  class="button button--{{ section.settings.button_style }}"
-                >
-                  {{ block.settings.button_label | escape }}
-                </a>
-              {%- endif -%}
               <div class="social-impact-links">
-                {%- if block.settings.facebook_link -%}
-                  <a href="{{ block.settings.facebook_link }}" class="social-impact-link-button social-facebook">
-                    {% render 'icon-facebook' %}
-                  </a>
-                {%- endif -%}
-                {%- if block.settings.twitter_link -%}
-                  <a href="{{ block.settings.twitter_link }}" class="social-impact-link-button social-twitter">
-                    {% render 'icon-twitter' %}
-                  </a>
-                {%- endif -%}
-                {%- if block.settings.instagram_link -%}
-                  <a href="{{ block.settings.instagram_link }}" class="social-impact-link-button social-instagram">
-                    {% render 'icon-instagram' %}
-                  </a>
-                {%- endif -%}
-                {%- if block.settings.youtube_link -%}
-                  <a href="{{ block.settings.youtube_link }}" class="social-impact-link-button social-youtube">
-                    {% render 'icon-youtube' %}
-                  </a>
-                {%- endif -%}
-                {%- if block.settings.tiktok_link -%}
-                  <a href="{{ block.settings.tiktok_link }}" class="social-impact-link-button social-tiktok">
-                    {% render 'icon-tiktok' %}
-                  </a>
-                {%- endif -%}
+                <div class="social-impact-links__website">
+                  {%- if block.settings.button_label != blank -%}
+                    <a
+                      {% if block.settings.button_link == blank %}
+                        role="link" aria-disabled="true"
+                      {% else %}
+                        href="{{ block.settings.button_link }}"
+                      {% endif %}
+                      class="button button--{{ section.settings.button_style }}"
+                    >
+                      {{ block.settings.button_label | escape }}
+                    </a>
+                  {%- endif -%}
+                </div>
+                <div class="social-impact-links__social-media">
+                  {%- if block.settings.facebook_link -%}
+                    <a href="{{ block.settings.facebook_link }}" class="social-impact-link-button social-facebook">
+                      {% render 'icon-facebook' %}
+                    </a>
+                  {%- endif -%}
+                  {%- if block.settings.twitter_link -%}
+                    <a href="{{ block.settings.twitter_link }}" class="social-impact-link-button social-twitter">
+                      {% render 'icon-twitter' %}
+                    </a>
+                  {%- endif -%}
+                  {%- if block.settings.instagram_link -%}
+                    <a href="{{ block.settings.instagram_link }}" class="social-impact-link-button social-instagram">
+                      {% render 'icon-instagram' %}
+                    </a>
+                  {%- endif -%}
+                  {%- if block.settings.youtube_link -%}
+                    <a href="{{ block.settings.youtube_link }}" class="social-impact-link-button social-youtube">
+                      {% render 'icon-youtube' %}
+                    </a>
+                  {%- endif -%}
+                  {%- if block.settings.tiktok_link -%}
+                    <a href="{{ block.settings.tiktok_link }}" class="social-impact-link-button social-tiktok">
+                      {% render 'icon-tiktok' %}
+                    </a>
+                  {%- endif -%}
+                </div>
               </div>
             </div>
           </div>
