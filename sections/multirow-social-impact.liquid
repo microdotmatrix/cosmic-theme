@@ -25,12 +25,20 @@
     padding: 1rem;
   }
   .social-impact-color-swatch {
-    width: 3rem;
-    height: 3rem;
+    width: 3.3rem;
+    height: 3.3rem;
     border-radius: 50%;
     display: inline-block;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     background-color: var(--color-swatch-value);
+  }
+  @media screen and (min-width: 750px) {
+    .social-impact-color-swatch {
+      width: 5rem;
+      height: 5rem;
+      margin-right: 1.5rem;
+    }
+  
   }
 {%- endstyle -%}
 
@@ -419,6 +427,17 @@
           "id": "text",
           "default": "<p>A brief summary explaining the associated social impact cause, why we support it and how.</p>",
           "label": "t:sections.multirow.blocks.row.settings.text.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "Website Link",
+          "label": "t:sections.multirow.blocks.row.settings.button_label.label"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.multirow.blocks.row.settings.button_link.label"
         },
         {
           "type": "url",
