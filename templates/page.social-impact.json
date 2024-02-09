@@ -63,24 +63,30 @@
         "padding_bottom": 36
       }
     },
-    "c0cd9762-abf0-4245-8409-b569d0cac50a": {
-      "type": "multirow",
+    "multirow_social_impact_BgxDNY": {
+      "type": "multirow-social-impact",
       "blocks": {
-        "template--20765318938913__c0cd9762-abf0-4245-8409-b569d0cac50a-row-1": {
+        "row_D9VgDj": {
           "type": "row",
           "repeater": "{{ page.metafields.custom.social_impact_donations.value }}",
           "settings": {
             "image": "{{ block.repeater.image.value }}",
+            "cause_color": "{{ block.repeater.device_color.value }}",
             "caption": "{{ block.repeater.donations.value }}",
             "heading": "{{ block.repeater.title.value }}",
             "text": "{{ block.repeater.description | metafield_tag }}",
             "button_label": "Get Involved",
-            "button_link": "{{ block.repeater.get_involved_link.value }}"
+            "button_link": "{{ block.repeater.get_involved_link.value }}",
+            "facebook_link": "{{ block.repeater.facebook_link.value }}",
+            "twitter_link": "{{ block.repeater.twitter_link.value }}",
+            "instagram_link": "{{ block.repeater.instagram_link.value }}",
+            "youtube_link": "{{ block.repeater.youtube_link.value }}",
+            "tiktok_link": "{{ block.repeater.system.url }}"
           }
         }
       },
       "block_order": [
-        "template--20765318938913__c0cd9762-abf0-4245-8409-b569d0cac50a-row-1"
+        "row_D9VgDj"
       ],
       "settings": {
         "image_height": "adapt",
@@ -102,6 +108,6 @@
   "order": [
     "main",
     "e5ba085c-96a2-431a-b63b-c81a578a4808",
-    "c0cd9762-abf0-4245-8409-b569d0cac50a"
+    "multirow_social_impact_BgxDNY"
   ]
 }
