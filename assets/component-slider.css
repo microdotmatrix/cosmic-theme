@@ -396,7 +396,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button .icon {
-  --slider-icon-size: 0.6rem;
+  --slider-icon-size: 50%;
   /* height: 0.6rem; */
   height: var(--slider-icon-size);
   width: var(--slider-icon-size);
