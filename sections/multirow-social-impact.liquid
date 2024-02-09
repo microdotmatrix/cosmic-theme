@@ -25,8 +25,9 @@
     padding: 1rem;
   }
   .social-impact-color-swatch {
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
     display: inline-block;
     margin-right: 0.5rem;
     background-color: var(--color-swatch-value);
@@ -99,7 +100,7 @@
                 </p>
               {%- endif -%}
               {%- if block.settings.heading -%}
-                <h2 class="image-with-text__heading {{ section.settings.heading_size }} rte">
+                <h2 class="image-with-text__heading {{ section.settings.heading_size }} rte" style="display: flex; align-items: baseline">
                   <span class="social-impact-color-swatch" style="--color-swatch-value: {{ block.settings.cause_color }}"></span> {{ block.settings.heading }}
                 </h2>
               {%- endif -%}
