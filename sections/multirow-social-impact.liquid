@@ -146,7 +146,7 @@
 
               {%- if block.settings.cause_icon -%}
                 <div class="image-with-text__text image-with-text__text--caption caption-with-letter-spacing caption-with-letter-spacing--medium" style="display: flex; align-items: center;">
-                  Device color which benefits this cause: <span class="social-impact-color-swatch" style="background-image: url('{{ block.settings.cause_icon }}'); background-size: cover;"></span>
+                  Device color which benefits this cause: <span class="social-impact-color-swatch" style="background-image: url('{{ block.settings.cause_icon | asset_url }}'); background-size: cover;"></span>
                 </div>
               {%- endif -%}
 
