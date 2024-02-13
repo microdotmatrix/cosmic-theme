@@ -138,9 +138,15 @@
                 <div class="image-with-text__text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
               {%- endif -%}
 
-              {%- if block.settings.cause_color -%}
+              {% comment %} {%- if block.settings.cause_color -%}
                 <div class="image-with-text__text image-with-text__text--caption caption-with-letter-spacing caption-with-letter-spacing--medium" style="display: flex; align-items: center;">
                   Device color which benefits this cause: <span class="social-impact-color-swatch" style="--color-swatch-value: {{ block.settings.cause_color }}"></span>
+                </div>
+              {%- endif -%} {% endcomment %}
+
+              {%- if block.settings.cause_icon -%}
+                <div class="image-with-text__text image-with-text__text--caption caption-with-letter-spacing caption-with-letter-spacing--medium" style="display: flex; align-items: center;">
+                  Device color which benefits this cause: <span class="social-impact-color-swatch" style="background-image: url('{{ block.settings.cause_color }}'); background-size: cover;"></span>
                 </div>
               {%- endif -%}
 
@@ -443,6 +449,11 @@
           "id": "cause_color",
           "label": "Cause Color",
           "default": "#000000"
+        },
+        {
+          "type": "url",
+          "id": "cause_icon",
+          "label": "Cause Icon"
         },
         {
           "type": "text",
