@@ -72,9 +72,10 @@
           "settings": {
             "image": "{{ block.repeater.image.value }}",
             "cause_color": "{{ block.repeater.device_color.value }}",
+            "cause_icon": "{{ block.repeater.cause_color.value }}",
             "caption": "{{ block.repeater.donations.value }}",
             "heading": "{{ block.repeater.title.value }}",
-            "text": "{{ block.repeater.description | metafield_tag }}",
+            "text": "<p>{{ block.repeater.description | metafield_tag }}<\/p>",
             "button_label": "Get Involved",
             "button_link": "{{ block.repeater.get_involved_link.value }}",
             "facebook_link": "{{ block.repeater.facebook_link.value }}",
