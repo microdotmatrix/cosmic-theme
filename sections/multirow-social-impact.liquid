@@ -46,17 +46,17 @@
     height: var(--social-icon-size);
   }
   .social-impact-color-swatch {
-    --color-swatch-size: 1rem;
+    --color-swatch-size: 2rem;
     width: var(--color-swatch-size);
     height: var(--color-swatch-size);
     border-radius: 50%;
     display: inline-block;
-    margin-right: var(--color-swatch-size);
+    margin-right: 1rem;
     background-color: var(--color-swatch-value);
   }
   @media screen and (min-width: 750px) {
     .social-impact-color-swatch {
-      --color-swatch-size: 1.25rem;
+      --color-swatch-size: 2.25rem;
     }
   
   }
@@ -133,8 +133,8 @@
                 </h2>
               {%- endif -%}
               {%- if block.settings.cause_color -%}
-                <div class="image-with-text__text image-with-text__text--caption" style="--color-swatch-value: {{ block.settings.cause_color }}" style="display: flex; align-items: center">
-                  <span class="social-impact-color-swatch" style="--color-swatch-value: {{ block.settings.cause_color }}"></span> devices benefit this cause:
+                <div class="image-with-text__text image-with-text__text--caption" style="display: flex; align-items: center; font-size: 0.75rem;">
+                  Device color which benefit this cause: <span class="social-impact-color-swatch" style="--color-swatch-value: {{ block.settings.cause_color }}"></span>
                 </div>
               {%- endif -%}
               {%- if block.settings.text -%}
