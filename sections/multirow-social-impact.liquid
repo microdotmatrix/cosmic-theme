@@ -144,6 +144,7 @@
                         role="link" aria-disabled="true"
                       {% else %}
                         href="{{ block.settings.button_link }}"
+                        target="_blank"
                       {% endif %}
                       class="button button--{{ section.settings.button_style }}"
                     >
@@ -153,27 +154,27 @@
                 </div>
                 <div class="social-impact-links__social-media">
                   {%- if block.settings.facebook_link -%}
-                    <a href="{{ block.settings.facebook_link }}" class="social-impact-link-button social-facebook">
+                    <a href="{{ block.settings.facebook_link }}" target="_blank" class="social-impact-link-button social-facebook">
                       {% render 'icon-facebook' %}
                     </a>
                   {%- endif -%}
                   {%- if block.settings.twitter_link -%}
-                    <a href="{{ block.settings.twitter_link }}" class="social-impact-link-button social-twitter">
+                    <a href="{{ block.settings.twitter_link }}" target="_blank" class="social-impact-link-button social-twitter">
                       {% render 'icon-twitter' %}
                     </a>
                   {%- endif -%}
                   {%- if block.settings.instagram_link -%}
-                    <a href="{{ block.settings.instagram_link }}" class="social-impact-link-button social-instagram">
+                    <a href="{{ block.settings.instagram_link }}" target="_blank" class="social-impact-link-button social-instagram">
                       {% render 'icon-instagram' %}
                     </a>
                   {%- endif -%}
                   {%- if block.settings.youtube_link -%}
-                    <a href="{{ block.settings.youtube_link }}" class="social-impact-link-button social-youtube">
+                    <a href="{{ block.settings.youtube_link }}" target="_blank" class="social-impact-link-button social-youtube">
                       {% render 'icon-youtube' %}
                     </a>
                   {%- endif -%}
                   {%- if block.settings.tiktok_link -%}
-                    <a href="{{ block.settings.tiktok_link }}" class="social-impact-link-button social-tiktok">
+                    <a href="{{ block.settings.tiktok_link }}" target="_blank" class="social-impact-link-button social-tiktok">
                       {% render 'icon-tiktok' %}
                     </a>
                   {%- endif -%}
