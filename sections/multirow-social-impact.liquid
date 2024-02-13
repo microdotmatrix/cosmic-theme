@@ -46,7 +46,7 @@
     height: var(--social-icon-size);
   }
   .social-impact-color-swatch {
-    --color-swatch-size: 2rem;
+    --color-swatch-size: 3rem;
     width: var(--color-swatch-size);
     height: var(--color-swatch-size);
     border-radius: 50%;
@@ -56,7 +56,7 @@
   }
   @media screen and (min-width: 750px) {
     .social-impact-color-swatch {
-      --color-swatch-size: 2.25rem;
+      --color-swatch-size: 3.25rem;
     }
   
   }
@@ -127,19 +127,23 @@
                   {{ block.settings.caption | escape }}
                 </p>
               {%- endif -%}
+
               {%- if block.settings.heading -%}
                 <h2 class="image-with-text__heading {{ section.settings.heading_size }} rte">
                   {{ block.settings.heading }}
                 </h2>
               {%- endif -%}
-              {%- if block.settings.cause_color -%}
-                <div class="image-with-text__text image-with-text__text--caption" style="display: flex; align-items: center; font-size: 1.42rem;">
-                  Device color which benefits this cause: <span class="social-impact-color-swatch" style="--color-swatch-value: {{ block.settings.cause_color }}"></span>
-                </div>
-              {%- endif -%}
+              
               {%- if block.settings.text -%}
                 <div class="image-with-text__text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
               {%- endif -%}
+
+              {%- if block.settings.cause_color -%}
+                <div class="image-with-text__text image-with-text__text--caption caption-with-letter-spacing caption-with-letter-spacing--medium" style="display: flex; align-items: center;">
+                  Device color which benefits this cause: <span class="social-impact-color-swatch" style="--color-swatch-value: {{ block.settings.cause_color }}"></span>
+                </div>
+              {%- endif -%}
+
               <div class="social-impact-links">
                 <div class="social-impact-links__website">
                   {%- if block.settings.button_label != blank -%}
