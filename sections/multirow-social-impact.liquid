@@ -123,9 +123,14 @@
           </div>
           <div class="image-with-text__text-item grid__item">
             <div class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.image_height }} content-container{% unless no_content_background and no_content_styles %} gradient color-{{ section.settings.row_color_scheme }}{% endunless %}">
+              {%- if block.settings.cause_color -%}
+                <div class="image-with-text__text image-with-text__text--caption" style="--color-swatch-value: {{ block.settings.cause_color }}" style="display: flex; align-items: center">
+                  All <span class="social-impact-color-swatch" style="--color-swatch-value: {{ block.settings.cause_color }}"></span> color devices benefit this cause:
+                </div>
+              {%- endif -%}
               {%- if block.settings.caption -%}
-                <p class="image-with-text__text image-with-text__text--caption caption-with-letter-spacing caption-with-letter-spacing--medium" style="display: flex; align-items: center">
-                  <span class="social-impact-color-swatch" style="--color-swatch-value: {{ block.settings.cause_color }}"></span> {{ block.settings.caption | escape }}
+                <p class="image-with-text__text image-with-text__text--caption caption-with-letter-spacing caption-with-letter-spacing--medium">
+                  {{ block.settings.caption | escape }}
                 </p>
               {%- endif -%}
               {%- if block.settings.heading -%}
