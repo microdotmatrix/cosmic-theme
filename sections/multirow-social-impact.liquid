@@ -51,7 +51,7 @@
     height: var(--color-swatch-size);
     border-radius: 50%;
     display: inline-block;
-    margin-right: 1rem;
+    margin-left: 1rem;
     background-color: var(--color-swatch-value);
   }
   @media screen and (min-width: 750px) {
@@ -133,8 +133,8 @@
                 </h2>
               {%- endif -%}
               {%- if block.settings.cause_color -%}
-                <div class="image-with-text__text image-with-text__text--caption" style="display: flex; align-items: center; font-size: 0.75rem;">
-                  Device color which benefit this cause: <span class="social-impact-color-swatch" style="--color-swatch-value: {{ block.settings.cause_color }}"></span>
+                <div class="image-with-text__text image-with-text__text--caption" style="display: flex; align-items: center; font-size: 1.42rem;">
+                  Device color which benefits this cause: <span class="social-impact-color-swatch" style="--color-swatch-value: {{ block.settings.cause_color }}"></span>
                 </div>
               {%- endif -%}
               {%- if block.settings.text -%}
