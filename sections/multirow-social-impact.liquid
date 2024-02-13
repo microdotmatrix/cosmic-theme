@@ -60,6 +60,16 @@
     }
   
   }
+  .social-impact-color-icon {
+    --color-icon-size: 3rem;
+    width: var(--color-icon-size);
+    height: var(--color-icon-size);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 1rem;
+    background-size: cover;
+    background-position: center;
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -146,7 +156,7 @@
 
               {%- if block.settings.cause_icon -%}
                 <div class="image-with-text__text image-with-text__text--caption caption-with-letter-spacing caption-with-letter-spacing--medium" style="display: flex; align-items: center;">
-                  Device color which benefits this cause: <span class="social-impact-color-swatch" style="background-image: url('{{ block.settings.cause_icon | image_url }}'); background-size: cover;"></span>
+                  Device color which benefits this cause: <span class="social-impact-color-icon" style="background-image: url('{{ block.settings.cause_icon | image_url: width: 64 }}'); background-size: cover;"></span>
                 </div>
               {%- endif -%}
 
