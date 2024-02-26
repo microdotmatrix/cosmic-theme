@@ -79,6 +79,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 .menu-drawer__inner-container {
   position: relative;
   height: 100%;
+  z-index: 3;
 }
 
 .menu-drawer__navigation-container {
