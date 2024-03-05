@@ -60,7 +60,7 @@
       {% endif %}
     >
       {%  if product.variants[forloop.index0].metafields.color_swatch.value and option.name == "Color" %} 
-        <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-image: url('{{ product.variants[forloop.index0].metafields.colors_watch.value | asset_url }}')">
+        <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-image: url('{{ product.variants[forloop.index0].metafields.colors_watch.value | image_url }}')">
           &nbsp;
           <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
         </label>  
