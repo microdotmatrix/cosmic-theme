@@ -60,7 +60,7 @@
       {% endif %}
     >
       {%  if product.variants[forloop.index0].metafields.color_swatch.value and option.name == "Color" %} 
-        <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-image: url('{{ product.variants[forloop.index0].metafields.color_swatch.value | image_url: width: 128 }}'); background-size: contain; background-position: center; background-repeat: no-repeat; padding: 1rem 0; block-size: 64px; inline-size: 64px" class="variant-swatch">
+        <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-image: url('{{ product.variants[forloop.index0].metafields.color_swatch.value | image_url: width: 128 }}'); background-size: contain; background-position: center; background-repeat: no-repeat; padding: 1rem 0; block-size: 60px; inline-size: 60px" class="variant-swatch">
           &nbsp;
           <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
         </label>  
