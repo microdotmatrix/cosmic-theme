@@ -233,6 +233,12 @@ fieldset.product-form__input .form__label {
   color: rgb(var(--color-background));
 }
 
+.product-form__input input[type='radio']:checked + label.variant-swatch {
+  background-color: transparent;
+  color: rgb(var(--color-background));
+  filter: drop-shadow(0 0.1rem 0.2rem rgba(var(--color-foreground), 0.5));
+}
+
 .product-form__input input[type='radio']:not(.disabled) + label > .visually-hidden {
   display: none;
 }
