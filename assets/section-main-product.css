@@ -233,13 +233,7 @@ fieldset.product-form__input .form__label {
   color: rgb(var(--color-background));
 }
 
-.product-form__input input[type='radio']:checked + label.variant-swatch {
-  --variant-swatch-size: 56px;
-  background-color: transparent;
-  color: rgb(var(--color-background));
-  filter: drop-shadow(0 6px 10px rgba(var(--color-foreground), 0.75));
-  transform: translateY(-3px);
-  transition: transform 200ms ease;
+.product-form__input input[type='radio'] + label.variant-swatch {
   background-size: contain; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -248,14 +242,23 @@ fieldset.product-form__input .form__label {
   inline-size: var(--variant-swatch-size);
 }
 
+.product-form__input input[type='radio']:checked + label.variant-swatch {
+  --variant-swatch-size: 56px;
+  background-color: transparent;
+  color: rgb(var(--color-background));
+  filter: drop-shadow(0 6px 10px rgba(var(--color-foreground), 0.75));
+  transform: translateY(-3px);
+  transition: transform 200ms ease;
+}
+
 @media screen and (min-width: 750px) {
-  .product-form__input input[type='radio']:checked + label.variant-swatch {
+  .product-form__input input[type='radio'] + label.variant-swatch {
     --variant-swatch-size: 64px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .product-form__input input[type='radio']:checked + label.variant-swatch {
+  .product-form__input input[type='radio'] + label.variant-swatch {
     --variant-swatch-size: 80px;
   }
 }
