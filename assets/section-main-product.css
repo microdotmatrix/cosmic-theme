@@ -234,6 +234,7 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__input input[type='radio'] + label.variant-swatch {
+  --variant-swatch-size: 56px;
   background-size: contain; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -243,7 +244,6 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__input input[type='radio']:checked + label.variant-swatch {
-  --variant-swatch-size: 56px;
   background-color: transparent;
   color: rgb(var(--color-background));
   filter: drop-shadow(0 6px 10px rgba(var(--color-foreground), 0.75));
