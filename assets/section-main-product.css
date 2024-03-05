@@ -234,7 +234,7 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__input input[type='radio'] + label.variant-swatch {
-  --variant-swatch-size: 56px;
+  --variant-swatch-size: 54px;
   background-size: contain; 
   background-position: center; 
   background-repeat: no-repeat; 
