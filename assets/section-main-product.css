@@ -234,11 +234,30 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__input input[type='radio']:checked + label.variant-swatch {
+  --variant-swatch-size: 56px;
   background-color: transparent;
   color: rgb(var(--color-background));
   filter: drop-shadow(0 6px 10px rgba(var(--color-foreground), 0.75));
   transform: translateY(-3px);
   transition: transform 200ms ease;
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 1rem 0; 
+  block-size: var(--variant-swatch-size); 
+  inline-size: var(--variant-swatch-size);
+}
+
+@media screen and (min-width: 750px) {
+  .product-form__input input[type='radio']:checked + label.variant-swatch {
+    --variant-swatch-size: 64px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .product-form__input input[type='radio']:checked + label.variant-swatch {
+    --variant-swatch-size: 80px;
+  }
 }
 
 .product-form__input input[type='radio']:not(.disabled) + label > .visually-hidden {
