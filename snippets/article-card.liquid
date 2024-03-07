@@ -48,7 +48,7 @@
                 style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
               {% endif %}
             >
-              {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+              
               <img
                 srcset="
                   {%- if article.image.src.width >= 165 -%}{{ article.image.src | image_url: width: 165 }} 165w,{%- endif -%}
@@ -69,7 +69,7 @@
                 width="{{ article.image.width }}"
                 height="{{ article.image.height }}"
               >
-              {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
+              
             </div>
           </div>
         {%- endif -%}
