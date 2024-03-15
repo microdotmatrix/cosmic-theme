@@ -3,6 +3,24 @@
     "6a30cf48-39f3-48a6-ac07-fc45b313d8e3": {
       "type": "slideshow",
       "blocks": {
+        "slide_D3QkMK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Aster_Banner.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/products\/aster-flower-vaporizer",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_fd9mmp": {
           "type": "slide",
           "settings": {
@@ -131,6 +149,7 @@
         }
       },
       "block_order": [
+        "slide_D3QkMK",
         "slide_fd9mmp",
         "c49dda1b-dc3c-4ac6-bdc0-5b2758dbf3c3",
         "template--20168172470561__6a30cf48-39f3-48a6-ac07-fc45b313d8e3-slide-1",
