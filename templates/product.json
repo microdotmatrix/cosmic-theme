@@ -76,9 +76,9 @@
             "icon": "price_tag",
             "product_list_limit": 6,
             "products_per_page": 3,
-            "pagination_style": "dots",
+            "pagination_style": "numbers",
             "image_ratio": "square",
-            "enable_quick_add": false
+            "enable_quick_add": true
           }
         },
         "share": {
