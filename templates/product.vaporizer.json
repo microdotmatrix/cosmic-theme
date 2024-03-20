@@ -95,6 +95,19 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "complementary_zeUJUz": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 4,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
         }
       },
       "block_order": [
@@ -111,7 +124,8 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-3",
-        "share"
+        "share",
+        "complementary_zeUJUz"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -140,7 +154,7 @@
             "title_color": "#121212",
             "main_text_color": "#121212",
             "link_color": "#414143",
-            "background_color": "transparent",
+            "background_color": "rgba(0,0,0,0)",
             "border_color": "#121212",
             "border_radius": 0,
             "widget_font": "work_sans_n4",
