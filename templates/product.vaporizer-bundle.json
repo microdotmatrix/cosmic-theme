@@ -90,6 +90,19 @@
             "page": ""
           }
         },
+        "complementary_WJzzdh": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with...",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 6,
+            "products_per_page": 3,
+            "pagination_style": "numbers",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -111,6 +124,7 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-3",
+        "complementary_WJzzdh",
         "share"
       ],
       "settings": {
@@ -135,13 +149,13 @@
           "type": "shopify:\/\/apps\/shoppinggives\/blocks\/donation-on-purchase\/7b6c2cd4-8962-4dc6-975b-870e1f567789",
           "settings": {
             "widget_style": "1",
-            "full_width": false,
+            "full_width": true,
             "title": "You Shop. We Give.",
             "title_color": "#121212",
             "main_text_color": "#121212",
             "link_color": "#414143",
-            "background_color": "transparent",
-            "border_color": "#121212",
+            "background_color": "rgba(0,0,0,0)",
+            "border_color": "#eef2f5",
             "border_radius": 0,
             "widget_font": "work_sans_n4",
             "font_size": 12
