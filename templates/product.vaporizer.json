@@ -90,12 +90,6 @@
             "page": ""
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "complementary_zeUJUz": {
           "type": "complementary",
           "settings": {
@@ -107,6 +101,12 @@
             "pagination_style": "numbers",
             "image_ratio": "square",
             "enable_quick_add": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -124,8 +124,8 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-3",
-        "share",
-        "complementary_zeUJUz"
+        "complementary_zeUJUz",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
