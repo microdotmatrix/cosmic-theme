@@ -5,7 +5,13 @@
 }
 
 product-recommendations:not(.is-accordion) .complementary-products__container {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  product-recommendations:not(.is-accordion) .complementary-products__container {
+    margin-top: 3.5rem;
+  }
 }
 
 .complementary-products__container > details[open] {
