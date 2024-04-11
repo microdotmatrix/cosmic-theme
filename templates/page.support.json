@@ -52,6 +52,16 @@
             "link_label": "Rover Support",
             "link": "shopify:\/\/pages\/rover-support"
           }
+        },
+        "column_iNqJCh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/41b1c87040241dbdf8009014cc97686b.png",
+            "title": "",
+            "text": "",
+            "link_label": "Aster Support",
+            "link": "shopify:\/\/products\/aster-flower-vaporizer"
+          }
         }
       },
       "block_order": [
@@ -59,14 +69,15 @@
         "template--20836959224097__c8a06c9d-f472-4026-b37e-843faa9cdf29-column-2",
         "template--20836959224097__c8a06c9d-f472-4026-b37e-843faa9cdf29-column-3",
         "ea0cfbbc-a158-4df9-987d-a17f9a382ff6",
-        "6c340640-c7b6-4920-9c8c-78caef25294b"
+        "6c340640-c7b6-4920-9c8c-78caef25294b",
+        "column_iNqJCh"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
-        "columns_desktop": 5,
+        "columns_desktop": 6,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
