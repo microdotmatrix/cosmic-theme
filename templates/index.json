@@ -5,6 +5,7 @@
       "blocks": {
         "slide_D3QkMK": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Aster_Banner.jpg",
             "heading": "",
