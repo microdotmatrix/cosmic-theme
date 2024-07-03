@@ -1,8 +1,35 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "6a30cf48-39f3-48a6-ac07-fc45b313d8e3": {
       "type": "slideshow",
       "blocks": {
+        "slide_j4eKYr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lunar-v2-has-landed.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/products\/lunar-v2",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_D3QkMK": {
           "type": "slide",
           "disabled": true,
@@ -76,24 +103,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--20168172470561__6a30cf48-39f3-48a6-ac07-fc45b313d8e3-slide-2": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/products\/lunar",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
         "7486236e-a0f4-4591-a027-5ff7ecdcbed7": {
           "type": "slide",
           "settings": {
@@ -150,11 +159,11 @@
         }
       },
       "block_order": [
+        "slide_j4eKYr",
         "slide_D3QkMK",
         "slide_fd9mmp",
         "c49dda1b-dc3c-4ac6-bdc0-5b2758dbf3c3",
         "template--20168172470561__6a30cf48-39f3-48a6-ac07-fc45b313d8e3-slide-1",
-        "template--20168172470561__6a30cf48-39f3-48a6-ac07-fc45b313d8e3-slide-2",
         "7486236e-a0f4-4591-a027-5ff7ecdcbed7",
         "b40e78ea-f405-49d1-bd7b-1b7a7b963cbd",
         "a57c10a2-3f49-42b1-a49e-bcb42880d59c"
