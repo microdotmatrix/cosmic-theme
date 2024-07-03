@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_K3UD8E": {
+          "type": "announcement",
+          "settings": {
+            "text": "New Lunar v2 now available!",
+            "link": "shopify:\/\/products\/lunar-v2"
+          }
+        },
         "announcement_33Pftt": {
           "type": "announcement",
           "settings": {
@@ -37,6 +44,7 @@
         }
       },
       "block_order": [
+        "announcement_K3UD8E",
         "announcement_33Pftt",
         "announcement_Lcman8",
         "announcement-bar-0"
