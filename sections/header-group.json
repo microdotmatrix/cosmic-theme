@@ -21,6 +21,13 @@
             "link": "shopify:\/\/products\/lunar-v2"
           }
         },
+        "announcement_pAFWTc": {
+          "type": "announcement",
+          "settings": {
+            "text": "Lunar Replacement Atomizers back in stock!",
+            "link": "shopify:\/\/products\/lunar-replacement-atomizers-2-pack"
+          }
+        },
         "announcement_33Pftt": {
           "type": "announcement",
           "settings": {
@@ -45,6 +52,7 @@
       },
       "block_order": [
         "announcement_K3UD8E",
+        "announcement_pAFWTc",
         "announcement_33Pftt",
         "announcement_Lcman8",
         "announcement-bar-0"
