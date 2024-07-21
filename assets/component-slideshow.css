@@ -15,6 +15,7 @@ slideshow-component .slideshow.banner {
   flex-wrap: nowrap;
   margin: 0;
   gap: 0;
+  z-index: 1;
 }
 
 .slideshow__slide {
@@ -121,7 +122,7 @@ slideshow-component .slideshow.banner {
 
 .slideshow__controls--top {
   order: 2;
-  z-index: 5;
+  z-index: 2;
 }
 
 @media screen and (max-width: 749px) {
