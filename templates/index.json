@@ -300,7 +300,7 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "lunar",
+            "product": "lunar-v2",
             "second_image": false
           }
         },
