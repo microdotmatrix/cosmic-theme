@@ -820,6 +820,7 @@ a.product__text {
   display: block;
   height: auto;
   margin: auto;
+  max-width: 100%;
 }
 
 .product-media-modal__content .media {
@@ -858,7 +859,6 @@ a.product__text {
 
   .product-media-modal__content > * {
     width: 100%;
-    max-width: 100%;
   }
 
   .product-media-modal__content > * + * {
