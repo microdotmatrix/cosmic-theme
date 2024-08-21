@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_x9KiMh": {
+          "type": "announcement",
+          "settings": {
+            "text": "All Aster colors now available!",
+            "link": "shopify:\/\/products\/aster-flower-vaporizer"
+          }
+        },
         "announcement_K3UD8E": {
           "type": "announcement",
           "settings": {
@@ -51,6 +58,7 @@
         }
       },
       "block_order": [
+        "announcement_x9KiMh",
         "announcement_K3UD8E",
         "announcement_pAFWTc",
         "announcement_33Pftt",
