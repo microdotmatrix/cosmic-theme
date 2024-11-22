@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -14,43 +14,51 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_F9EU47": {
+          "type": "announcement",
+          "settings": {
+            "text": "30% off all products now until 12/1",
+            "link": "shopify://collections/all-vape-products"
+          }
+        },
         "announcement_x9KiMh": {
           "type": "announcement",
           "settings": {
             "text": "All Aster colors now available!",
-            "link": "shopify:\/\/products\/aster-flower-vaporizer"
+            "link": "shopify://products/aster-flower-vaporizer"
           }
         },
         "announcement_K3UD8E": {
           "type": "announcement",
           "settings": {
             "text": "New Lunar v2 now available!",
-            "link": "shopify:\/\/products\/lunar-v2"
+            "link": "shopify://products/lunar-v2"
           }
         },
         "announcement_pAFWTc": {
           "type": "announcement",
           "settings": {
             "text": "Lunar Replacement Atomizers back in stock!",
-            "link": "shopify:\/\/products\/lunar-replacement-atomizers-2-pack"
+            "link": "shopify://products/lunar-replacement-atomizers-2-pack"
           }
         },
         "announcement_Lcman8": {
           "type": "announcement",
           "settings": {
             "text": "All EVRI colors are back in stock!",
-            "link": "shopify:\/\/products\/evri-for-510-flower-and-concentrates"
+            "link": "shopify://products/evri-for-510-flower-and-concentrates"
           }
         },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
             "text": "Free US shipping for orders over $74.99!",
-            "link": "shopify:\/\/pages\/shipping-policy"
+            "link": "shopify://pages/shipping-policy"
           }
         }
       },
       "block_order": [
+        "announcement_F9EU47",
         "announcement_x9KiMh",
         "announcement_K3UD8E",
         "announcement_pAFWTc",
