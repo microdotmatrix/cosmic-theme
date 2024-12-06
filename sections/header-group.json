@@ -14,13 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_F9EU47": {
-          "type": "announcement",
-          "settings": {
-            "text": "30% off all products now until 12/1",
-            "link": "shopify://collections/all-vape-products"
-          }
-        },
         "announcement_x9KiMh": {
           "type": "announcement",
           "settings": {
@@ -58,7 +51,6 @@
         }
       },
       "block_order": [
-        "announcement_F9EU47",
         "announcement_x9KiMh",
         "announcement_K3UD8E",
         "announcement_pAFWTc",
