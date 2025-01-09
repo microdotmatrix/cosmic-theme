@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/dip-devices-logo-web_410x_421e68f5-8d22-4c9e-8ec8-a37dada2f62a.png",
+    "logo": "shopify://shop_images/dip-devices-logo-web_410x_421e68f5-8d22-4c9e-8ec8-a37dada2f62a.png",
     "logo_width": 240,
-    "favicon": "shopify:\/\/shop_images\/dip_favicon.png",
+    "favicon": "shopify://shop_images/dip_favicon.png",
     "type_header_font": "oswald_n4",
     "heading_scale": 100,
     "type_body_font": "work_sans_n4",
@@ -99,17 +108,17 @@
     "sold_out_badge_color_scheme": "inverse",
     "brand_headline": "",
     "brand_description": "",
-    "brand_image": "shopify:\/\/shop_images\/dip-devices-logo-web_410x_421e68f5-8d22-4c9e-8ec8-a37dada2f62a.png",
+    "brand_image": "shopify://shop_images/dip-devices-logo-web_410x_421e68f5-8d22-4c9e-8ec8-a37dada2f62a.png",
     "brand_image_width": 250,
-    "social_facebook_link": "https:\/\/facebook.com\/dipdevices",
-    "social_instagram_link": "https:\/\/www.instagram.com\/dipdevices\/",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCQpX1jS1L2QQEF82vae8miw",
+    "social_facebook_link": "https://facebook.com/dipdevices",
+    "social_instagram_link": "https://www.instagram.com/dipdevices/",
+    "social_youtube_link": "https://www.youtube.com/channel/UCQpX1jS1L2QQEF82vae8miw",
     "social_tiktok_link": "",
-    "social_twitter_link": "https:\/\/twitter.com\/dipdevices",
+    "social_twitter_link": "https://twitter.com/dipdevices",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
-    "social_vimeo_link": "https:\/\/vimeo.com\/user54621452",
+    "social_vimeo_link": "https://vimeo.com/user54621452",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
@@ -118,7 +127,7 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/dip-devices-logo-web_410x_421e68f5-8d22-4c9e-8ec8-a37dada2f62a.png",
+    "checkout_logo_image": "shopify://shop_images/dip-devices-logo-web_410x_421e68f5-8d22-4c9e-8ec8-a37dada2f62a.png",
     "checkout_logo_position": "center",
     "checkout_sidebar_background_color": "#eef2f5",
     "checkout_heading_font": "Oswald",
@@ -139,18 +148,15 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "10261849759452303822": {
-        "type": "shopify:\/\/apps\/shoppinggives\/blocks\/app-embed-block\/7b6c2cd4-8962-4dc6-975b-870e1f567789",
+        "type": "shopify://apps/shoppinggives/blocks/app-embed-block/7b6c2cd4-8962-4dc6-975b-870e1f567789",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "9776720720251544092": {
-        "type": "shopify:\/\/apps\/helium-customer-fields\/blocks\/app-embed\/bab58598-3e6a-4377-aaaa-97189b15f131",
+        "type": "shopify://apps/helium-customer-fields/blocks/app-embed/bab58598-3e6a-4377-aaaa-97189b15f131",
         "disabled": false,
         "settings": {
           "registration_form_id": "",
@@ -162,10 +168,9 @@
         }
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {
-        }
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": true,
+        "settings": {}
       }
     },
     "color_schemes": {
