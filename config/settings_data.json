@@ -150,27 +150,17 @@
     },
     "content_for_index": [],
     "blocks": {
-      "10261849759452303822": {
-        "type": "shopify://apps/shoppinggives/blocks/app-embed-block/7b6c2cd4-8962-4dc6-975b-870e1f567789",
-        "disabled": false,
-        "settings": {}
-      },
-      "9776720720251544092": {
-        "type": "shopify://apps/helium-customer-fields/blocks/app-embed/bab58598-3e6a-4377-aaaa-97189b15f131",
-        "disabled": false,
-        "settings": {
-          "registration_form_id": "",
-          "edit_account_form_id": "",
-          "edit_account_link_text": "Edit account",
-          "edit_account_heading": "Edit account",
-          "edit_account_back_link_text": "Back to account",
-          "enable_js_api": false
-        }
-      },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": true,
         "settings": {}
+      },
+      "18228966181090706294": {
+        "type": "shopify://apps/selleasy/blocks/app-embed/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+        "disabled": false,
+        "settings": {
+          "storefrontAccessToken": ""
+        }
       }
     },
     "color_schemes": {
