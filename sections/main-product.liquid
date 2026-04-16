@@ -423,11 +423,6 @@
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
-              {% comment %}
-  Trust badges block — place below Add to Cart button.
-  File: sections/main-product.liquid (Cosmic theme)
-  Insert after the {% when 'buy_buttons' %} block, before {% endcase %}.
-{% endcomment %}
 <div class="product-trust-badges" style="
   display: flex;
   gap: 14px;
