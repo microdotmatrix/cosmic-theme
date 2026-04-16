@@ -187,6 +187,7 @@
         "66d78807-0ed2-4394-9ad2-93dd80e8d099",
         "bc123aa2-1b27-4de5-913f-846750592000"
       ],
+      "disabled": true,
       "settings": {
         "title": "Featured Promotions"
       }
@@ -204,7 +205,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Our vapes are multifunctional, portable, and torchless. </p><p>The <a href=\"https://dipdevices.com/products/rover\" target=\"_blank\" title=\"Rover Dab Pen\">Rover Dab Pen</a> provides a true portable dab rig experience. Our terp pearls and innovative airflow evenly heat the concentrate, providing a robust and full-flavor dab pen experience.</p><p><a href=\"https://dipdevices.com/products/dipper-vaporizer\">The Dipper</a> is a 2-in-1 electric dab pen and honey straw. It includes a <a href=\"https://dipdevices.com/products/vapor-tip-atomizer-5-pack\">Vapor Tip</a> dab straw for portable dabbing, and a <a href=\"https://dipdevices.com/products/quartz-crystal-atomizer-3-pack\">Quartz Atomizer</a> to turn the device into a powerful dab pen for wax and other concentrates.</p><p><a href=\"https://dipdevices.com/products/evri-starter-pack\">The EVRI</a>, our newest product, has multiple vape and dab attachments: A <a href=\"https://dipdevices.com/products/evri-vapor-tip-attachment\">Vapor Tip</a> electric dab straw and a <a href=\"https://dipdevices.com/products/evri-510-pod-attachment\">510/Pod Attachment</a> for cartridges and vape pods as well as a <a href=\"https://dipdevices.com/products/evri-quartz-crystal-attachment\">Quartz Crystal</a> bucket-style attachment for a traditional pack-and-go dab pen experience.</p><p><a href=\"https://dipdevices.com/collections/little-dipper\"><span style=\"text-decoration:underline\">The Little Dipper</span></a> is a low cost, discreet electric dab straw meant for maximum portability. Voted the Best New Product of the year in 2021 by <a href=\"https://www.thehqevent.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">HQ Event</span></a>.</p><p><a href=\"https://dipdevices.com/collections/vaporizers\">All of our dab pens and vaporizers</a> are discreet and let you dab without a torch.</p>"
+            "text": "<p>Our vapes are multifunctional, portable, and torchless. </p><p>The <a href=\"https://dipdevices.com/products/rover\" target=\"_blank\" title=\"Rover Dab Pen\">Rover Dab Pen</a> provides a true portable dab rig experience. Our terp pearls and innovative airflow evenly heat the concentrate, providing a robust and full-flavor dab pen experience.</p><p><a href=\"https://dipdevices.com/products/dipper-vaporizer\">The Dipper</a> is a 2-in-1 electric dab pen and honey straw. It includes a <a href=\"https://dipdevices.com/products/vapor-tip-atomizer-5-pack\">Vapor Tip</a> dab straw for portable dabbing, and a <a href=\"https://dipdevices.com/products/quartz-crystal-atomizer-3-pack\">Quartz Atomizer</a> to turn the device into a powerful dab pen for wax and other concentrates.</p><p><a href=\"https://dipdevices.com/products/evri-starter-pack\">The EVRI</a>, our newest product, has multiple vape and dab attachments: A <a href=\"https://dipdevices.com/products/evri-vapor-tip-attachment\">Vapor Tip</a> electric dab straw and a <a href=\"https://dipdevices.com/products/evri-510-pod-attachment\">510/Pod Attachment</a> for cartridges and vape pods as well as a <a href=\"https://dipdevices.com/products/evri-quartz-crystal-attachment\">Quartz Crystal</a> bucket-style attachment for a traditional pack-and-go dab pen experience.</p><p><a href=\"https://dipdevices.com/collections/little-dipper\"><span style=\"text-decoration:underline\">The Little Dipper</span></a> is a low cost, discreet electric dab straw meant for maximum portability. Voted the Best New Product of the year in 2021 by <a href=\"https://www.thehqevent.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">HQ Event</span></a>.</p><p><a href=\"https://dipdevices.com/collections/vaporizers\">All of our dab pens and vaporizers</a> are discreet and let you dab without a torch.</p>"
           }
         }
       },
@@ -212,6 +213,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -229,7 +231,7 @@
           "settings": {
             "image": "shopify://shop_images/BeFunky-design_2_Cropped_1.png",
             "title": "Innovative",
-            "text": "<p>EVRI is a revolutionary, continuously evolving consumption solution. The device features interchangeable, magnetic attachments for a versatile experience. Currently available attachments are our classic Vapor Tip electric dab straw, a Quartz Crystal Attachment for a traditional \"dab pen\" hit, and a 2-in-1 attachment for 510 Cartridges and Refillable Pods.</p>",
+            "text": "<p>EVRI is a revolutionary, continuously evolving consumption solution. The device features interchangeable, magnetic attachments for a versatile experience. Currently available attachments are our classic Vapor Tip electric dab straw, a Quartz Crystal Attachment for a traditional \"dab pen\" hit, and a 2-in-1 attachment for 510 Cartridges and Refillable Pods.</p>",
             "link_label": "Explore device configurations",
             "link": "shopify://products/evri-for-510-flower-and-concentrates"
           }
@@ -239,7 +241,7 @@
           "settings": {
             "image": "shopify://shop_images/BeFunky-design_3_Cropped.png",
             "title": "Durable",
-            "text": "<p>The Dipper is a 2-in-1 dab pen and electric honey straw built for extreme durability and reliability. The tips are replaceable so there are no worries about a messy device. It features three high powered heat settings that let you dab without a torch, and includes a comprehensive one year warranty.</p>",
+            "text": "<p>The Dipper is a 2-in-1 dab pen and electric honey straw built for extreme durability and reliability. The tips are replaceable so there are no worries about a messy device. It features three high powered heat settings that let you dab without a torch, and includes a comprehensive one year warranty.</p>",
             "link_label": "Put it to the test",
             "link": "shopify://products/dipper-starter-pack-1"
           }
@@ -249,6 +251,7 @@
         "template--20168172470561__0513f1e4-e826-4966-b230-cf246d47ae95-column-1",
         "template--20168172470561__0513f1e4-e826-4966-b230-cf246d47ae95-column-2"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "title": "",
@@ -297,6 +300,7 @@
         "product",
         "0e031471-4d75-4558-923c-3ef95b655ab5"
       ],
+      "disabled": true,
       "settings": {
         "heading": "OUR BEST SELLING VAPORIZERS AND ACCESSORIES",
         "heading_size": "h1",
@@ -341,6 +345,7 @@
         "template--20168172470561__c92af8cc-0272-4b2a-a3a3-673642616f75-text-1",
         "template--20168172470561__c92af8cc-0272-4b2a-a3a3-673642616f75-button-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -415,10 +420,174 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "9d85a8c43c155bd0-2c-47-d5-bcdc6c5c0b": {
+      "type": "multicolumn",
+      "blocks": {
+        "block-1": {
+          "type": "column",
+          "settings": {
+            "title": "Free Shipping Over $75"
+          }
+        },
+        "block-2": {
+          "type": "column",
+          "settings": {
+            "title": "Eco-Friendly & Reusable"
+          }
+        },
+        "block-3": {
+          "type": "column",
+          "settings": {
+            "title": "1-Year Warranty"
+          }
+        },
+        "block-4": {
+          "type": "column",
+          "settings": {
+            "title": "Fast USB-C Charging"
+          }
+        }
+      },
+      "settings": {
+        "heading_size": "h3",
+        "image_width": "third",
+        "image_ratio": "1",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2f3fe08daf366279-bd-ae-63-bf3228e44d": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Dip Devices Best Sellers",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-dip-device-products",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "color_scheme": "",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1b08b38e3e8bb935-d7-c1-7d-f7a58696a5": {
+      "type": "collection-list",
+      "blocks": {
+        "cat-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dab-pens"
+          }
+        },
+        "cat-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dab-straws"
+          }
+        },
+        "cat-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "flower-vaporizers"
+          }
+        },
+        "cat-4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "510-batteries"
+          }
+        },
+        "cat-5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        },
+        "cat-6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dab-rigs"
+          }
+        },
+        "cat-7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bongs"
+          }
+        },
+        "cat-8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "herb-grinders"
+          }
+        },
+        "cat-9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cleaning-supplies"
+          }
+        }
+      },
+      "settings": {
+        "title": "Shop by Category",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f34feef2bbef0d7e-49-87-1d-84f11e3c35": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Smoke Shop Best Sellers",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-arrivals",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "color_scheme": "",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "6a30cf48-39f3-48a6-ac07-fc45b313d8e3",
+    "9d85a8c43c155bd0-2c-47-d5-bcdc6c5c0b",
+    "2f3fe08daf366279-bd-ae-63-bf3228e44d",
+    "1b08b38e3e8bb935-d7-c1-7d-f7a58696a5",
+    "f34feef2bbef0d7e-49-87-1d-84f11e3c35",
     "081e7a41-234b-4656-b69a-1050752785ad",
     "rich_text",
     "0513f1e4-e826-4966-b230-cf246d47ae95",
