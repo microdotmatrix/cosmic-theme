@@ -427,25 +427,29 @@
         "block-1": {
           "type": "column",
           "settings": {
-            "title": "Free Shipping Over $75"
+            "title": "Free Shipping Over $75",
+            "text": ""
           }
         },
         "block-2": {
           "type": "column",
           "settings": {
-            "title": "Eco-Friendly & Reusable"
+            "title": "Eco-Friendly & Reusable",
+            "text": ""
           }
         },
         "block-3": {
           "type": "column",
           "settings": {
-            "title": "1-Year Warranty"
+            "title": "1-Year Warranty",
+            "text": ""
           }
         },
         "block-4": {
           "type": "column",
           "settings": {
-            "title": "Fast USB-C Charging"
+            "title": "Fast USB-C Charging",
+            "text": ""
           }
         }
       },
@@ -461,14 +465,17 @@
         "color_scheme": "inverse",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 16,
+        "padding_bottom": 16
       },
       "block_order": [
         "block-1",
         "block-2",
         "block-3",
         "block-4"
+      ],
+      "custom_css": [
+        ".title { display: none; }"
       ]
     },
     "2f3fe08daf366279-bd-ae-63-bf3228e44d": {
