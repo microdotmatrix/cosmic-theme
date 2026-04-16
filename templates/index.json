@@ -473,7 +473,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all-dip-device-products",
+        "collection": "all-vape-products",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
@@ -524,25 +524,25 @@
         "cat-6": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dab-rigs"
+            "collection": "herb-grinder"
           }
         },
         "cat-7": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bongs"
+            "collection": "bong-dab-rig-cleaning-supplies"
           }
         },
         "cat-8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "herb-grinders"
+            "collection": "stash-jars-storage-containers"
           }
         },
         "cat-9": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cleaning-supplies"
+            "collection": "apparel"
           }
         }
       },
