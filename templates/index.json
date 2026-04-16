@@ -452,7 +452,7 @@
       "settings": {
         "heading_size": "h3",
         "image_width": "third",
-        "image_ratio": "1",
+        "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
@@ -463,7 +463,13 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4"
+      ]
     },
     "2f3fe08daf366279-bd-ae-63-bf3228e44d": {
       "type": "featured-collection",
@@ -556,7 +562,18 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
+      },
+      "block_order": [
+        "cat-1",
+        "cat-2",
+        "cat-3",
+        "cat-4",
+        "cat-5",
+        "cat-6",
+        "cat-7",
+        "cat-8",
+        "cat-9"
+      ]
     },
     "f34feef2bbef0d7e-49-87-1d-84f11e3c35": {
       "type": "featured-collection",
